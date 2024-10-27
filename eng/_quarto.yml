@@ -1,0 +1,68 @@
+project:
+  type: website
+  output-dir: ../_docs/eng
+
+website:
+  title: " "
+  description: "Welcome to The Upside-Down blog, a place where paradox and mystery come alive in the light of the Gospel."
+  #reader-mode: true
+  site-url: https://theupsidedownblog.netlify.app
+  favicon: images/round_logo2.png
+  google-analytics: "G-V3QQ28RRMM"
+  navbar: 
+    #pinned: false
+    #collapse: true
+    logo: images/tud_logo2.png
+    left:
+      - text: "Home"
+        href: ../index.qmd
+      - text: "Information"
+        menu: 
+          - text: "About"
+            href: about.qmd
+          - text: "Creator"
+            href: https://ocardec.netlify.app
+            target: _blank
+      - text: "References"
+        href: refers.qmd
+    right:
+      - text: "Español"
+        href: ../esp/index.qmd
+      - text: "English"
+        href: index.qmd
+      - icon: envelope-at
+        text: Email
+        href: "mailto:admin@theupsidedownblog.com"  
+  search:
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: |
+      <div class="bmc-button-container">
+        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ocardec" data-color="#252525" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" >
+        </script>
+        <style>
+          .bmc-button-container .bmc-button {
+            font-size: 10px !important; 
+            background-color: transparent !important;
+            border: none; 
+          }
+        </style>
+      </div>
+    center: |
+      <span class="faux-block">Created in &nbsp; <a href="https://quarto.org" target="_blank"><img src="images/quarto.png" width="70"></a></span>
+      <span class="faux-block">&nbsp;&nbsp;Powered by <a href="https://www.navtheway.com" target="_blank">&nbsp;NTW</a> </span>
+    right: |
+      <span class="faux-block">&#169; Copyright 2024, Cardec Solution
+format:
+  html: 
+    page-layout: article
+    fontsize: 1.1em
+    theme: 
+        dark: darkly
+        light: flatly
+    css: styles.css
+#editor: source
+
+
+

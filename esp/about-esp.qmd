@@ -1,0 +1,40 @@
+---
+title: "Propósito"
+about:
+  template: "solana"
+  image: images/tud_logo300.png
+  image-shape: rounded
+page-layout: article
+title-block-banner: true
+---
+
+Bienvenidos al "El Blog Invertido", un lugar donde el misterio y la paradoja cobran vida a la luz del Evangelio. Este blog nació del deseo de profundizar en los sorprendentes y contraculturales caminos del Reino de Dios—un Reino que desafía la sabiduría y las expectativas del mundo.
+
+La Biblia está llena de paradojas que nos invitan a ver la vida a través de un lente completamente diferente al que ofrece el mundo. Aquí encontramos enseñanzas como:
+
+-   Los últimos serán los primeros, y los primeros, últimos (Mateo 20:16, NBLA).
+-   La fortaleza se encuentra en la debilidad (2 Corintios 12:9, NBLA).
+-   Para salvar tu vida, debes perderla (Mateo 16:25, NBLA).
+-   La grandeza se encuentra en servir a los demás (Marcos 10:43-45, NBLA).
+
+Estas verdades aparentemente contradictorias no son meros adornos retóricos; revelan el corazón mismo del plan redentor de Dios. En el centro de este plan está Cristo mismo, el Rey que se humilló hasta la muerte en una cruz (Filipenses 2:6-8, NBLA). Su vida, ministerio, muerte y resurrección son una vívida representación de esta realidad al revés. A través de Él, la oscuridad da paso a la luz, la muerte es absorbida por la vida, y los pecadores son llamados santos.
+
+Este blog es un espacio para explorar estos ricos temas bíblicos. Nos sumergimos en las Escrituras para descubrir las profundas verdades contrarias a la intuición del Reino de Dios y aplicarlas a los desafíos de la vida diaria. Cada publicación es una invitación a repensar lo que significa seguir a Jesús en un mundo que a menudo está en desacuerdo con Su enseñanza. Ya sea discutiendo la tensión entre la humildad y la grandeza, o examinando la paradoja de encontrar vida al perderla, este blog busca animar a los creyentes a abrazar la belleza subversiva del Evangelio.
+
+En un mundo donde el éxito se define por el poder, el prestigio y la autopromoción, El Blog Invertido te invita a descubrir la libertad y el gozo que se encuentran al rendirse a los caminos paradójicos de Jesús. Únete a nosotros mientras profundizamos en un Reino donde la cruz conduce a la victoria, y la tumba vacía habla de la vida eterna.
+
+<br/>
+
+<h5><p style="text-align: right; font-family:fantasy;">Oscar Cardec</p></h5>
+
+<br/>
+
+------------------------------------------------------------------------
+
+### Notas
+
+-   Gráficos generados automáticamente utilizando GPT-4o de OpenAI (ChatGPT Plus) y el generador de imágenes DALL-E.
+-   El contenido del blog Invertido es revisado y complementado por el GPT "Navigate The Way" (NTW). ([NTW](https://www.navtheway.com){target="_blank"})
+-   Las opiniones expresadas en el contenido de este blog son exclusivamente del autor y no reflejan los puntos de vista o posiciones del [NTW](https://www.navtheway.com){target="_blank"} y/o su administrador.
+
+------------------------------------------------------------------------

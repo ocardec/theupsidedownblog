@@ -1,0 +1,9 @@
+---
+title: "Welcome to the Upside-Down Blog!"
+page-layout: full
+title-block-banner: true
+---
+
+![](images/usdkingdm3.jpeg){fig-align="center" width="400"}
+
+<link rel="icon" type="image/png" href="images/tud_logo2"/>

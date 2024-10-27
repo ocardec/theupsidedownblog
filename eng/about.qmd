@@ -1,0 +1,46 @@
+---
+title: "Purpose"
+about:
+  template: "solana"
+  image: images/tud_logo300.png
+  image-shape: rounded
+page-layout: article
+title-block-banner: true
+---
+
+The Upside-Down blog, a place where paradox and mystery come alive in the light of the Gospel. This blog was born out of a desire to dive deep into the surprising, counter-cultural ways of God’s Kingdom—a Kingdom that defies worldly wisdom and expectations.
+
+The Bible is filled with paradoxes that invite us to see life through a lens entirely different from what the world offers. Here, we encounter teachings like:
+
+-   The last will be first, and the first last (Matthew 20:16).
+-   Strength is found in weakness (2 Corinthians 12:9).
+-   To save your life, you must lose it (Matthew 16:25).
+-   Greatness is found in serving others (Mark 10:43-45).
+
+These seemingly contradictory truths are not merely rhetorical flourishes; they reveal the very heart of God’s redemptive plan. At the center of this plan is Christ Himself, the King who humbled Himself to death on a cross (Philippians 2:6-8). His life, ministry, death, and resurrection are a vivid portrayal of this upside-down reality. Through Him, darkness gives way to light, death is swallowed up by life, and sinners are called saints.
+
+This blog is a space for exploring these rich, biblical themes. We delve into the Scriptures to uncover the deep, counter-intuitive truths of God’s Kingdom and apply them to the challenges of daily life. Each post is an invitation to rethink what it means to follow Jesus in a world that is often at odds with His teaching. Whether discussing the tension between humility and greatness, or examining the paradox of finding life by losing it, this blog seeks to encourage believers to embrace the subversive beauty of the Gospel.
+
+In a world where success is defined by power, prestige, and self-promotion, The Upside-Down invites you to discover the freedom and joy found in surrendering to the paradoxical ways of Jesus. Join us as we journey deeper into a Kingdom where the cross leads to victory, and the empty tomb speaks of life eternal.
+
+<br/>
+
+<h5><p style="text-align: right; font-family:fantasy;">Oscar Cardec</p></h5>
+
+<br/>
+
+------------------------------------------------------------------------
+
+### Observations
+
+-   Graphics auto-generated using OpenAI's GPT-4o (ChatGPT Plus) and DALL-E image generator
+-   The Upside-Down blog content is reviewed and complemented by the AI-powered GPT Navigate The Way ([NTW](https://www.navtheway.com){target="_blank"})
+-   The views and opinions expressed in this blog's content are those of the author and do not reflect the views or positions of [NTW](https://www.navtheway.com){target="_blank"} and/or its administrator
+
+### License
+
+-   [GNU General Public License](../LICENSE){target="_blank"}
+
+------------------------------------------------------------------------
+
+<link rel="icon" type="image/png" href="images/tud_logo2"/>

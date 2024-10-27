@@ -1,0 +1,10 @@
+{
+  "listingMap": {
+    "eng/index.qmd": [
+      "posts/eng"
+    ],
+    "esp/index.qmd": [
+      "posts/esp"
+    ]
+  }
+}

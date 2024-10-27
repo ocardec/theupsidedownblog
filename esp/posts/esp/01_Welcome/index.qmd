@@ -1,0 +1,13 @@
+---
+title: "Bienvenidos al Blog Invertido"
+image: ../../img/upsidedown2.png
+categories: [Esperanza, Gracia, Salvación]
+---
+
+## El Blog del Reino Invertido
+
+![](../../img/upsidedown2.png){fig-align="center" width="350"}
+
+En un mundo donde el éxito se define por el poder, el prestigio y la autopromoción, este blog, el cual presenta un reino al revés o invertido, te invitan a descubrir la libertad y el gozo que se encuentran al rendirse a los caminos paradójicos de Jesús. Oro para que encuentres entendimiento y luz a lo largo de estas declaraciones y gráficos que aparentan ser contradictorios, pero en si, están correctamente ordenados.
+<br/>
+<p style="text-align: right; font-family:fantasy;">Oscar Cardec</p>
