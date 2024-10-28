@@ -7,7 +7,7 @@ categories: [Sabiduría, Bendición, Reverencia]
 
 ## El Temor del Señor es la Fuente de Sabiduría
 
-![](/posts/img/wisdom.webp){fig-align="center" width="400"}
+![](../../img/wisdom.webp){fig-align="center" width="400"}
 
 *"El principio de la sabiduría es el temor del Señor; los necios desprecian la sabiduría y la instrucción." -* Proverbios 1:7
 

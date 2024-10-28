@@ -7,7 +7,7 @@ categories: [Wisdom, Grace, Relationship]
 
 ## The Fear of the Lord is the Source of Wisdom
 
-![](/posts/img/wisdom.webp){fig-align="center" width="400"}
+![](../../img/wisdom.webp){fig-align="center" width="400"}
 
 > *"The fear of the Lord is the beginning of knowledge; fools despise wisdom and instruction." - Proverbs. 1: 7*
 
