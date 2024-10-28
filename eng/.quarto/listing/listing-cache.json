@@ -2,6 +2,9 @@
   "listingMap": {
     "index-eng.qmd": [
       "posts/eng"
+    ],
+    "index.qmd": [
+      "posts/eng"
     ]
   }
 }

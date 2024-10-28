@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2024-10-15">
 
-<title>Guerreros del Reino</title>
+<title>Guerreros del Reino –</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,7 +25,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
@@ -94,6 +93,9 @@ gtag('config', 'G-V3QQ28RRMM', { 'anonymize_ip': true});
     <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../../../images/tud_logo2.png" alt="" class="navbar-logo">
     </a>
+    <a class="navbar-brand" href="../../../../index.html">
+    <span class="navbar-title"></span>
+    </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -105,16 +107,46 @@ gtag('config', 'G-V3QQ28RRMM', { 'anonymize_ip': true});
     <a class="nav-link" href="../../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../../../esp/index.html"> 
-<span class="menu-text">Español</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-english" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">English</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-english">    
+        <li>
+    <a class="dropdown-item" href="../../../../eng/index.html">
+ <span class="dropdown-text">Blog</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../eng/about.html">
+ <span class="dropdown-text">Purpose</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-español" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Español</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-español">    
+        <li>
+    <a class="dropdown-item" href="../../../../esp/index.html">
+ <span class="dropdown-text">Blog</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../esp/about-esp.html">
+ <span class="dropdown-text">Propósito</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../../eng/index.html"> 
-<span class="menu-text">English</span></a>
+    <a class="nav-link" href="../../../../eng/refers.html"> 
+<span class="menu-text">References</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://ocardec.netlify.app" target="_blank"> 
+<span class="menu-text">Developer</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="mailto:admin@theupsidedownblog.com"> <i class="bi bi-envelope-at" role="img">
 </i> 
@@ -123,23 +155,28 @@ gtag('config', 'G-V3QQ28RRMM', { 'anonymize_ip': true});
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
-    <a href="https://twitter.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="https://x.com/CardO37474" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://code.com">
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/ocardec/theupsidedownblog">
             Source Code
             </a>
           </li>
           <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://bugs.com">
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/ocardec/theupsidedownblog/issues/new/choose">
             Report a Bug
             </a>
           </li>
       </ul>
     </div>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -479,7 +516,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/theupsidedownblog\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -811,14 +848,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<div class="bmc-button-container">
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ocardec" data-color="#252525" data-emoji="" data-font="Lato" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00">
+  </script>
+<style>
+    .bmc-button-container .bmc-button {
+      font-size: 10px !important; 
+      background-color: transparent !important;
+      border: none; 
+    }
+  </style>
+</div>
+</div>   
     <div class="nav-footer-center">
-<p><span class="faux-block">© Copyright 2024, Cardec Solution</span></p>
+<p><span class="faux-block">Created in &nbsp; <a href="https://quarto.org" target="_blank"><img src="images/quarto.png" width="70"></a></span> <span class="faux-block">&nbsp;&nbsp;Powered by <a href="https://www.navtheway.com" target="_blank">&nbsp;NTW</a></span></p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p><span class="faux-block">© Copyright 2024, Cardec Solution</span></p>
+</div>
   </div>
 </footer>
 

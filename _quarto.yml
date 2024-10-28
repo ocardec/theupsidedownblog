@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _docs
+  output-dir: docs
 
 website:
   title: " "
@@ -16,44 +16,42 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-
       - text: "English"
         menu: 
           - text: "Blog"
             href: eng/index.qmd
           - text: "Purpose"
             href: eng/about.qmd
-
       - text: "Español"
         menu: 
           - text: "Blog"
             href: esp/index.qmd
           - text: "Propósito"
             href: esp/about-esp.qmd
-
       - text: "References"
         href: eng/refers.qmd
-
     right:
-      - text: "Developer"
+      - icon: person
         href: https://ocardec.netlify.app
         target: _blank
       - icon: envelope-at
-        text: Email
         href: "mailto:admin@theupsidedownblog.com" 
-        
-    tools:
       - icon: twitter
         href: https://x.com/CardO37474
+        target: _blank
+        
+    tools:
       - icon: github
         menu:
           - text: Source Code
-            href:  https://github.com/ocardec/theupsidedown
+            href:  https://github.com/ocardec/theupsidedownblog
+            target: _blank
           - text: Report a Bug
-            href:  https://github.com/ocardec/theupsidedown/issues/new/choose
-  # search:
-  #     location: navbar
-  #     type: textbox
+            href:  https://github.com/ocardec/theupsidedownblog/issues/new/choose
+            target: _blank
+  search:
+      location: navbar
+      type: textbox
   page-footer: 
     left: |
       <div class="bmc-button-container">
