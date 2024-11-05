@@ -1,0 +1,27 @@
+---
+title: "Observaciones"
+---
+
+#### Notas
+
+-   Gráficos generados automáticamente utilizando GPT-4o de OpenAI (ChatGPT Plus) y el generador de imágenes DALL-E.
+
+-   El contenido del blog Invertido es revisado y complementado por el GPT "Navigate The Way" ([NTW](https://www.navtheway.com){target="_blank"})
+
+-   Las opiniones expresadas en el contenido de este blog son exclusivamente del autor y no reflejan los puntos de vista o posiciones del NTW y/o su administrador.
+
+------------------------------------------------------------------------
+
+#### Advertencia
+
+Como se ha observado, el contenido del blog "The Upside-Down" es generado, revisado y/o complementado por NTW, un “asistente impulsado con AI destinado a apoyar el crecimiento espiritual y la comprensión bíblica de sus usuarios. El mismo opera bajo la perspectiva conservadora, reformada y evangélica, enfocándose en el método histórico-gramatical de interpretación de las Escrituras.” [^1]
+
+[^1]: **About**: Meet Navigate The Way️. Retrieved from: <https://www.navtheway.com/introductory-interview>
+
+Por lo tanto, en vista de que "The Upside-Down Blog" es una plataforma de gestión de información basada en la web que involucra contenido generado por tecnología considerada Inteligencia Artificial, es mi responsabilidad recordar a los usuarios sus posibles limitaciones. Para ello, consulte la página completamente dedicada a Puntos de Precaución de NTW️ o la traducción local en este documento: [LINK](cp_translation.qmd).
+
+Como siempre, por favor, hágame saber si tiene alguna pregunta o inquietud. Use el enlace de correo electrónico ubicado en la sección de la barra de navegación superior.
+
+------------------------------------------------------------------------
+
+<link rel="icon" type="image/png" href="images/tud_logo2"/>
