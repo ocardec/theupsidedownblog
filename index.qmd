@@ -4,7 +4,7 @@ page-layout: article
 title-block-banner: true
 ---
 
-![](images/usdkingdm3.jpeg){fig-align="center" width="400"}
+![](images/usdkingdm3.jpeg){fig-align="center" width="300"}
 
 <br/>
 

@@ -7,7 +7,7 @@ title-block-banner: true
 ---
 
 |  |  |
-|:---|:---|
+|:-----------------------------------|:-----------------------------------|
 | ![](images/bibleapp.png){width="150"} | [**YouVersion**](https://www.bible.com){target="_blank"} \| A free Bible App equipped with more than 2,400 Bible version, and translated in over 1,600 languages. |
 | ![](images/bibleproject.png){width="150"} | [**BibleProject**](https://bibleproject.com){target="_blank"} \| A nonprofit, crowdfunded organization that makes free resources to help people experience the Bible in a way that is approachable and transformative. |
 | ![](images/faithtech.png){width="150"} | [**FaithTech**](https://faithtech.com){target="_blank"} \| A global tech community bridging the gap between Faith and Technology to help people in the tech ecosystem find community and steward their skills to glorify God. |
@@ -18,5 +18,6 @@ title-block-banner: true
 | ![](images/lc.png){width="150"} | [**LC Open Network**](https://open.life.church){target="_blank"} \| Free resources to reach the people in your community that God has called you to reach. |
 | ![](images/ao_lab_logo.png){width="150"} | [**AO Lab**](https://helloaolab.my.canva.site) \| A non-profit company dedicated to loving and living out the Word of God. The goal of this project is to make the Bible freely available to anyone who should need it in a format that is optimized for use by applications. |
 | ![](images/api_bible.png){width="150"} | [**API.Bible**](https://scripture.api.bible) \| Build the Bible into your app or website, with nearly 2500 Bible versions available across over 1600 languages, API.Bible offers the largest collection of Bibles available. |
+| ![](images/vrbx.jpg){width="150"} | [VRBX Epika Studios](https://www.epikastudios.com) \| Virtual Reality Bible Experiences, a transformational virtual reality Bible engagement platform for all generations. |
 
 <link rel="icon" type="image/png" href="images/tud_logo2"/>

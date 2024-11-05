@@ -31,12 +31,4 @@ In a world where success is defined by power, prestige, and self-promotion, The 
 
 ------------------------------------------------------------------------
 
-### Observations
-
--   Graphics auto-generated using OpenAI's GPT-4o (ChatGPT Plus) and DALL-E image generator
--   The Upside-Down blog content is reviewed and complemented by the AI-powered GPT Navigate The Way ([NTW](https://www.navtheway.com){target="_blank"})
--   The views and opinions expressed in this blog's content are those of the author and do not reflect the views or positions of [NTW](https://www.navtheway.com){target="_blank"} and/or its administrator
-
-------------------------------------------------------------------------
-
 <link rel="icon" type="image/png" href="images/tud_logo2"/>

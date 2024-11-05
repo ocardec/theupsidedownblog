@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2024-11-05">
+
+<title>Perdiendo el Punto Principal a Simple Vista –</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../images/round_logo2.png" rel="icon" type="image/png">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-V3QQ28RRMM"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-V3QQ28RRMM', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../../../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../../images/tud_logo2.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../../../index.html">
+    <span class="navbar-title"></span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-english" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">English</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-english">    
+        <li>
+    <a class="dropdown-item" href="../../../../eng/index.html">
+ <span class="dropdown-text">Blog</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../eng/about.html">
+ <span class="dropdown-text">Purpose</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../eng/remarks.html">
+ <span class="dropdown-text">Remarks</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-español" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Español</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-español">    
+        <li>
+    <a class="dropdown-item" href="../../../../esp/index.html">
+ <span class="dropdown-text">Blog</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../esp/about-esp.html">
+ <span class="dropdown-text">Propósito</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../esp/observaciones.html">
+ <span class="dropdown-text">Observaciones</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-articles" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Articles</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-articles">    
+        <li>
+    <a class="dropdown-item" href="../../../../articles/truth_grace.html">
+ <span class="dropdown-text">Truth &amp; Grace</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../articles/tune_his_freq.html">
+ <span class="dropdown-text">Tune His Frequency</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../eng/refers.html"> 
+<span class="menu-text">References</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://ocardec.netlify.app" target="_blank"> <i class="bi bi-person" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:admin@theupsidedownblog.com"> <i class="bi bi-envelope-at" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/CardO37474" target="_blank"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/ocardec/theupsidedownblog" target="_blank">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/ocardec/theupsidedownblog/issues/new/choose" target="_blank">
+            Report a Bug
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Perdiendo el Punto Principal a Simple Vista</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Salvación</div>
+                <div class="quarto-category">Gracia</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 5, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="perdiendo-el-punto---una-reflexión-en-jeremías-87" class="level2">
+<h2 class="anchored" data-anchor-id="perdiendo-el-punto---una-reflexión-en-jeremías-87">Perdiendo el Punto - Una Reflexión en Jeremías 8:7</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/stork.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" width="613"></p>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p><em>“</em>Aun la cigüeña en el cielo conoce sus estaciones, y la tórtola, la golondrina y la grulla guardan la época de sus migraciones; pero mi pueblo no conoce la ordenanza del <strong>Señor</strong>.&nbsp;(Jeremías 8:7, LBLA)</p>
+</blockquote>
+<p>Las Escrituras resaltan un tema recurrente de ceguera espiritual: personas que deberían haber conocido y entendido los planes de Dios, pero que no lograron reconocer Su presencia justo frente a sus ojos. El lamento de Jeremías es una ilustración profunda de esto. La naturaleza—la creación de Dios—conoce instintivamente y sigue los ritmos y leyes del Creador. Sin embargo, el pueblo escogido de Dios perdió las verdades y propósitos esenciales del Señor. Este tema se vuelve aún más impactante en el Nuevo Testamento, donde los líderes religiosos, a pesar de su profundo conocimiento de la Ley y los Profetas, no reconocieron a Jesucristo, el Mesías. En este blog, exploraremos la paradoja de la ceguera espiritual: cómo aquellos más familiarizados con la Palabra de Dios pueden perder el corazón de Su mensaje. Lo haremos en tres secciones: La Perspectiva del Mundo vs.&nbsp;la del Reino, La Paradoja Explicada y Viviendo la Paradoja y Actuando en Consecuencia.</p>
+<hr>
+<section id="la-perspectiva-del-mundo-vs.-la-del-reino" class="level4">
+<h4 class="anchored" data-anchor-id="la-perspectiva-del-mundo-vs.-la-del-reino"><strong>La Perspectiva del Mundo vs.&nbsp;la del Reino</strong></h4>
+<p><strong>Perspectiva del Mundo:</strong><br>
+Desde la perspectiva del mundo, el conocimiento es poder. El mundo le da un inmenso valor a la acumulación de información, educación y experiencia. En la sociedad, aquellos que son expertos, ya sea en ciencia, derecho o teología, son altamente respetados. En entornos religiosos, este énfasis en el conocimiento a menudo se traduce en una profunda reverencia por los eruditos, teólogos y líderes religiosos. Los escribas y fariseos en los tiempos de Jesús ejemplificaban esta mentalidad. Eran expertos en la Ley, habiendo dedicado sus vidas a estudiar las Escrituras y observar meticulosamente los rituales religiosos. Estaban seguros de su entendimiento y cómodos con su estatus religioso, creyendo que su extenso conocimiento les daba favor ante Dios.</p>
+<p>Incluso hoy, a menudo caemos en la misma trampa. Pensamos que si conocemos las doctrinas correctas, podemos citar las Escrituras o hemos asistido fielmente a la iglesia, debemos estar alineados con los propósitos de Dios. La perspectiva del mundo equipara la información con la madurez espiritual y a menudo eleva la formalidad religiosa por encima de la fe y transformación genuinas.</p>
+<p><strong>Perspectiva del Reino:</strong><br>
+Pero el Reino de Dios opera de manera diferente. Este Reino invertido valora un corazón sencible y receptivo por encima de una mente simplemente llena de conocimiento. Jesús dijo:&nbsp;<em>“Bienaventurados los de limpio corazón, pues ellos verán a Dios”</em>&nbsp;(Mateo 5:8, NBLA). No es el que más sabe sobre Dios quien es más bendecido, sino el que tiene un corazón listo para recibirlo. Los fariseos tenían un vasto conocimiento, pero perdieron el corazón de Dios. Eran expertos en las Escrituras, pero no lograron reconocer al mismo que las Escrituras señalaban. Jesús, la Palabra hecha carne, estaba en medio de ellos, pero permanecieron ciegos a Su presencia.</p>
+<p>Jeremías capta esta realidad de manera poderosa: el mundo natural reconoce y sigue los ritmos designados por el Creador, pero el pueblo de Dios permanece ciego y sordo a Su voz. La ironía es impactante: la cigüeña, la tórtola y la golondrina obedecen las leyes de la naturaleza de Dios, pero la humanidad, dotada de razón y revelación, no percibe los planes de Dios. En el Reino, la vista espiritual requiere humildad, dependencia de Dios y un corazón transformado por la gracia, no solo la acumulación de conocimiento religioso.</p>
+<hr>
+</section>
+<section id="la-paradoja-explicada" class="level4">
+<h4 class="anchored" data-anchor-id="la-paradoja-explicada"><strong>La Paradoja Explicada</strong></h4>
+<p>La paradoja es clara:&nbsp;<em>aquellos más familiarizados con la Palabra de Dios fueron los que no vieron la presencia de Dios.</em> Jesús lloró sobre Jerusalén, expresando Su dolor porque la ciudad, que había visto los milagros de Dios y escuchado Sus profecías, no reconoció el tiempo de la visita de Dios. Él lamentó:&nbsp;<em>“¡Si también tú hubieras sabido en este día lo que conduce a la paz! Pero ahora está oculto a tus ojos”</em>&nbsp;(Lucas 19:42, NBLA). A pesar de su devoción religiosa, el pueblo de Jerusalén perdió su momento de salvación. La tragedia no radicaba en la falta de práctica religiosa, sino en la incapacidad de captar la esencia de la visita de Dios.</p>
+<blockquote class="blockquote">
+<p>“… porque no conociste el tiempo de tu visitación”.</p>
+</blockquote>
+<p>Juan 1:11 refleja esta realidad desgarradora:&nbsp;<em>“A lo suyo vino, y los suyos no le recibieron”</em>&nbsp;(Juan 1:11, NBLA). Jesús no vino a extraños; vino a las personas que esperaban un Mesías. Habían estudiado la Ley y los Profetas, anticipado la liberación de Dios y adherido a las prácticas religiosas, pero cuando Dios mismo apareció, lo rechazaron. ¿Por qué? Sus ojos espirituales estaban cerrados. Esperaban un rey conquistador, no un humilde siervo. Buscaban un libertador político, no un Salvador sufriente. Sus expectativas los cegaron ante la obra real de Dios.</p>
+<p>Jesús confrontó directamente esta ceguera espiritual cuando habló con los líderes religiosos:&nbsp;<em>“Ustedes examinan las Escrituras porque piensan que en ellas tienen vida eterna; y son ellas las que dan testimonio de Mí; y sin embargo, no quieren venir a Mí para que tengan vida”</em>&nbsp;(Juan 5:39-40, NBLA). Su problema no era la falta de conocimiento de las Escrituras, sino la falta de percepción espiritual. Perdieron el punto. Estaban tan enfocados en las palabras de la Ley que no reconocieron a la Palabra hecha carne.</p>
+<blockquote class="blockquote">
+<p>“¡Si tú también hubieras sabido en este día lo que conduce a la paz! Pero ahora está oculto a tus ojos.” (Lucas 19:42 NBLA)</p>
+</blockquote>
+<p>Isaías 1:3 ilustra aún más este tema:&nbsp;<em>“El buey conoce a su dueño, y el asno el pesebre de su amo, pero Israel no conoce, mi pueblo no entiende”</em>. Incluso los animales reconocen y responden a su amo, pero el pueblo de Dios no reconoció a su Creador. Es un recordatorio sobrio de que nosotros también podemos quedarnos atrapados en prácticas religiosas y debates teológicos y no encontrarnos con el Dios viviente.</p>
+<hr>
+</section>
+<section id="viviendo-la-paradoja-y-actuando-en-consecuencia" class="level4">
+<h4 class="anchored" data-anchor-id="viviendo-la-paradoja-y-actuando-en-consecuencia"><strong>Viviendo la Paradoja y Actuando en Consecuencia</strong></h4>
+<p>¿Cómo evitamos caer en la trampa de la ceguera espiritual? ¿Cómo vivimos de una manera que honre la paradoja de conocer a Dios no solo con nuestras mentes, sino con nuestros corazones y vidas? Aquí hay tres maneras:</p>
+<ol type="1">
+<li><p><strong>Buscar Relación por Encima del Conocimiento</strong><br>
+Los fariseos conocían las Escrituras, pero perdieron de vista a Jesús. Debemos asegurarnos de que nuestra búsqueda de Dios no sea solo intelectual. El estudio bíblico es esencial, pero debe llevarnos a una intimidad más profunda con Cristo. Dedica tiempo a la oración, pidiendo a Dios que se revele personalmente. Acércate a la Palabra de Dios no solo como a un libro de texto, sino como a una carta de amor. El objetivo no es solo aprender acerca de Jesús, sino conocerlo y ser transformado por Él.</p></li>
+<li><p><strong>Mantenerse Humilde y Abierto a los Caminos de Dios</strong><br>
+El orgullo espiritual es una de las mayores barreras para reconocer la obra de Dios. La seguridad de los fariseos en su conocimiento religioso los hizo ciegos a la nueva obra que Dios estaba haciendo. Nosotros también necesitamos permanecer humildes y enseñables. Estemos dispuestos a dejar que Dios nos sorprenda. Estemos abiertos a la posibilidad de que los caminos de Dios no se alineen con nuestras expectativas. Como nos recuerda Isaías 55:8-9:&nbsp;<em>“Porque Mis pensamientos no son vuestros pensamientos, ni vuestros caminos Mis caminos,” declara el Señor</em>.</p></li>
+<li><p><strong>Discernir la Presencia de Dios en la Vida Cotidiana</strong><br>
+El lamento de Jeremías sobre las aves que conocen sus temporadas nos recuerda buscar a Dios en lo ordinario. No esperemos encontrar a Dios solo en la iglesia o a través de actividades religiosas; busquemos Su presencia en los ritmos de la vida diaria. Veamos la mano de Dios en la creación, en actos de bondad, en momentos inesperados de gracia. Jesús a menudo se reveló en contextos ordinarios: una mesa de cena, un bote de pesca, un paseo por el camino. Debemos estar atentos a la presencia de Dios, incluso cuando aparece en lugares que menos esperamos.</p></li>
+</ol>
+<hr>
+</section>
+<section id="conclusión" class="level4">
+<h4 class="anchored" data-anchor-id="conclusión"><strong>Conclusión</strong></h4>
+<p><strong>Ver lo que Está Oculto a Simple Vista</strong></p>
+<p>La ceguera espiritual es un peligro que todos enfrentamos. Las Escrituras están llenas de advertencias sobre perder la obra de Dios, no porque Él esté ausente, sino porque no estamos prestando atención. El Reino al revés nos desafía a ir más allá del conocimiento religioso y entrar en una relación vibrante y viva con Jesús. Nos llama a dejar de lado nuestras ideas preconcebidas y abrazar los caminos impredecibles y transformadores de Dios</p>
+<p>Jesús sigue visitando a Su pueblo hoy. La pregunta es: ¿Lo reconoceremos o perderemos el punto principal? ¿Tendremos corazones lo suficientemente humildes para ver al Rey en medio de nosotros? Mientras navegamos en nuestro viaje de fe, seamos personas que no solo conocen acerca de Dios, sino que verdaderamente Lo conocen, que reconocen Su voz y responden con amor, humildad y obediencia.</p>
+<hr>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = true;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/theupsidedownblog\.netlify\.app");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<div class="bmc-button-container">
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ocardec" data-color="#252525" data-emoji="" data-font="Lato" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00">
+  </script>
+<style>
+    .bmc-button-container .bmc-button {
+      font-size: 10px !important; 
+      background-color: transparent !important;
+      border: none; 
+    }
+  </style>
+</div>
+</div>   
+    <div class="nav-footer-center">
+<p><span class="faux-block">&nbsp;&nbsp;Powered by <a href="https://www.navtheway.com" target="_blank">&nbsp;Navigate the Way</a></span></p>
+</div>
+    <div class="nav-footer-right">
+<p><span class="faux-block">© Copyright 2024, Cardec Solution</span></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

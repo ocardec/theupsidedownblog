@@ -1,0 +1,27 @@
+---
+title: "Remarks"
+---
+
+#### Notes
+
+-   Graphics auto-generated using OpenAI's GPT-4o (ChatGPT Plus) and DALL-E image generator
+
+-   The Upside-Down blog content is complemented by Navigate The Way ([NTW](https://www.navtheway.com){target="_blank"})
+
+-   The views and opinions expressed in this blog's content are those of the author and do not reflect the views or positions of NTW and/or its administrator
+
+------------------------------------------------------------------------
+
+#### Warning
+
+As observed, The Upside-Down Blog content is generated, reviewed and/or complemented by NTW, an "AI-powered assistant intended to support the spiritual growth and biblical understanding of its users. It operates under the conservative, reformed, evangelical perspective, focusing on the historical-grammatical method of scripture interpretation." [^1]
+
+[^1]: **About**: Meet Navigate The Way ✝️. Retrieved from: <https://www.navtheway.com/introductory-interview>
+
+Therefore, in light that The Upside-Down Blog is a web-based information management platform involving Generative AI content, it is my responsibility to remind the users of its potential limitations. For that, please refer to the NTW️ fully dedicated page of [Caution Points](https://www.navtheway.com/caution-points){target="_blank"}.
+
+As always, please let me know if you have any questions or concerns. Use the email link located on the above navigation bar section.
+
+------------------------------------------------------------------------
+
+<link rel="icon" type="image/png" href="images/tud_logo2"/>

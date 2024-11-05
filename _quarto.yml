@@ -22,23 +22,31 @@ website:
             href: eng/index.qmd
           - text: "Purpose"
             href: eng/about.qmd
+          - text: "Remarks"
+            href: eng/remarks.qmd
       - text: "Español"
         menu: 
           - text: "Blog"
             href: esp/index.qmd
           - text: "Propósito"
             href: esp/about-esp.qmd
+          - text: "Observaciones"
+            href: esp/observaciones.qmd
+      - text: "Articles"
+        menu: 
+          - text: "Truth & Grace"
+            href: articles/truth_grace.qmd
+          - text: "Tune His Frequency"
+            href: articles/tune_his_freq.qmd
+            
       - text: "References"
         href: eng/refers.qmd
     right:
-      - icon: person
-        href: https://ocardec.netlify.app
-        target: _blank
+      # - icon: person
+      #   href: https://ocardec.netlify.app
+      #   target: _blank
       - icon: envelope-at
         href: "mailto:admin@theupsidedownblog.com" 
-      - icon: twitter
-        href: https://x.com/CardO37474
-        target: _blank
         
     tools:
       - icon: github

@@ -31,10 +31,3 @@ En un mundo donde el éxito se define por el poder, el prestigio y la autopromoc
 
 ------------------------------------------------------------------------
 
-### Notas
-
--   Gráficos generados automáticamente utilizando GPT-4o de OpenAI (ChatGPT Plus) y el generador de imágenes DALL-E.
--   El contenido del blog Invertido es revisado y complementado por el GPT "Navigate The Way" (NTW). ([NTW](https://www.navtheway.com){target="_blank"})
--   Las opiniones expresadas en el contenido de este blog son exclusivamente del autor y no reflejan los puntos de vista o posiciones del [NTW](https://www.navtheway.com){target="_blank"} y/o su administrador.
-
-------------------------------------------------------------------------
