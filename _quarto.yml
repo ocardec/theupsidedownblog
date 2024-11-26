@@ -82,8 +82,8 @@ format:
     page-layout: article
     fontsize: 1.1em
     theme: 
-        dark: darkly
         light: flatly
+        dark: darkly 
     css: styles.css
 
 
