@@ -1,0 +1,1427 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.4.3",
+  "metadata": {
+    "appmode": "quarto-static",
+    "primary_rmd": "index.qmd",
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "quarto": {
+    "version": "1.5.57",
+    "engines": ["markdown"]
+  },
+  "packages": null,
+  "files": {
+    "_quarto.yml": {
+      "checksum": "6bf6ed16b4772b518a75de40a0a21f43"
+    },
+    ".gitattributes": {
+      "checksum": "05bdb783ee6514c8c072e47680af8ff7"
+    },
+    "404.qmd": {
+      "checksum": "3e2ccf1ec2861ff4f5f27795491bc23c"
+    },
+    "articles/frequency.webp": {
+      "checksum": "c8afaadca611b9194558429b1a6f7762"
+    },
+    "articles/truth_grace.qmd": {
+      "checksum": "4649d510d259f9e991c1b2e5266d4ea6"
+    },
+    "articles/tune_his_freq.qmd": {
+      "checksum": "cf49acb14708b0643cb945d46422d468"
+    },
+    "docs/404.html": {
+      "checksum": "a9b2d0b9953990b3ac42218780385f6e"
+    },
+    "docs/articles/frequency.webp": {
+      "checksum": "c8afaadca611b9194558429b1a6f7762"
+    },
+    "docs/articles/truth_grace.html": {
+      "checksum": "801320dfe5e8f5acce4539e8c43e0180"
+    },
+    "docs/articles/tune_his_freq.html": {
+      "checksum": "5e47a465096b1ddc5314512c2af35521"
+    },
+    "docs/eng/about.html": {
+      "checksum": "aa7ccef01ab697aaae8b7f60267b29e5"
+    },
+    "docs/eng/images/ao_lab_logo.png": {
+      "checksum": "875b28baf982f28039817e08f03e669c"
+    },
+    "docs/eng/images/api_bible.png": {
+      "checksum": "ea269e3c715023f9d67ccd9061f7ba51"
+    },
+    "docs/eng/images/bibleapp.png": {
+      "checksum": "bf8089323b9a1ca33306de808aeeac47"
+    },
+    "docs/eng/images/bibleproject.png": {
+      "checksum": "172be62495e1ed2681cb4c321860617f"
+    },
+    "docs/eng/images/faithtech.png": {
+      "checksum": "fab1c0924ab356e77e35e242b7c96bb4"
+    },
+    "docs/eng/images/faithTools.png": {
+      "checksum": "883c48915b3c23c0ac2925dc1a0b0f62"
+    },
+    "docs/eng/images/imb.jpeg": {
+      "checksum": "7a48ddffc49826ce3554aa5e67c51271"
+    },
+    "docs/eng/images/lc.png": {
+      "checksum": "ce8a5ad00b61b6b56c9215b53c8e8482"
+    },
+    "docs/eng/images/namb.png": {
+      "checksum": "9792bd37cb392fe6f75beef1dade5889"
+    },
+    "docs/eng/images/ntw.png": {
+      "checksum": "172d8f14a16a4784918432c55d7bae5e"
+    },
+    "docs/eng/images/tud_logo300.png": {
+      "checksum": "ee292f175cc5f8ad04a3b9bc37ecfa69"
+    },
+    "docs/eng/images/vrbx.jpg": {
+      "checksum": "5943bacb71fe878748cde6851e09917b"
+    },
+    "docs/eng/index.html": {
+      "checksum": "d7ddd70d73910deaa5ea62f8732aa1ea"
+    },
+    "docs/eng/posts/eng/02_Matthew 28:6/index.html": {
+      "checksum": "b9dea919caa297f4eb913cd968d9422c"
+    },
+    "docs/eng/posts/eng/03_Matthew 20:25-28/index.html": {
+      "checksum": "368bfc2d3c82a2c73ecc43f9025a54cb"
+    },
+    "docs/eng/posts/eng/04_Matthew 5:43-48/index.html": {
+      "checksum": "d6181a3b218abc8a8b6dc067f24d8dd0"
+    },
+    "docs/eng/posts/eng/05_Ezekiel 22:30-31/index.html": {
+      "checksum": "00eb8375526bdf564a8a3d7f3f764a18"
+    },
+    "docs/eng/posts/eng/06_Matthew 16:25/index.html": {
+      "checksum": "20f89e1bd45e82c4d42b740c1b3cd32e"
+    },
+    "docs/eng/posts/eng/07_1 Corinthians 3:18-19/index.html": {
+      "checksum": "bbb3f9bb36c1ee1b558c8d17c0cb084b"
+    },
+    "docs/eng/posts/eng/08_Matthew 11:28-30/index.html": {
+      "checksum": "298003f6e9386b96227d6b75095fb9bb"
+    },
+    "docs/eng/posts/eng/09_Matthew 22:14/index.html": {
+      "checksum": "41ba71f87cc2d7d788c1958e4ef86fdd"
+    },
+    "docs/eng/posts/eng/10_2 Corinthians 4:18/index.html": {
+      "checksum": "2e0380303904497bbbc1b268b211295b"
+    },
+    "docs/eng/posts/eng/11_2 Corinthians 12:9/index.html": {
+      "checksum": "85c8df10ff4e95cd917f720b0e814480"
+    },
+    "docs/eng/posts/eng/12_Matthew 5:3/index.html": {
+      "checksum": "813cebf2cc216866319cce042838cf08"
+    },
+    "docs/eng/posts/eng/13_Matthew 5:15/index.html": {
+      "checksum": "c81c458c1a9c0a1883a32c0baf46b463"
+    },
+    "docs/eng/posts/eng/14_Matthew 5:4/index.html": {
+      "checksum": "03878ea6df22531b876be637778543e6"
+    },
+    "docs/eng/posts/eng/15_Psalm 1:3/index.html": {
+      "checksum": "a77a9204563baec9686e3085c57f13b6"
+    },
+    "docs/eng/posts/eng/16_Matthew 7:13-14/index.html": {
+      "checksum": "09d6d53d4e987e4ed24e5bb2e5e247b1"
+    },
+    "docs/eng/posts/eng/17_Matthew 5:5/index.html": {
+      "checksum": "21e0cfc136393aee8e6c8986ec2bd269"
+    },
+    "docs/eng/posts/eng/18_2 Samuel 9:1-13/index.html": {
+      "checksum": "8673ccb102d3dcc5a76eebc9f57733f2"
+    },
+    "docs/eng/posts/eng/19_Matthew 5:10/index.html": {
+      "checksum": "333cfaed45fef84c6992a7799f2d34c0"
+    },
+    "docs/eng/posts/eng/20_1 Samuel 16:1-13/index.html": {
+      "checksum": "baadf56f573aedb6011db15fc13e02ad"
+    },
+    "docs/eng/posts/eng/21_Matthew 5:6/index.html": {
+      "checksum": "892af24e663bfa60c961b7e0923873f8"
+    },
+    "docs/eng/posts/eng/22_Matthew 5:11/index.html": {
+      "checksum": "30f4f9f200430f76b232c8d2a48b3845"
+    },
+    "docs/eng/posts/eng/23_Galatians 3:13/index.html": {
+      "checksum": "caa8bd40e2454a9d12ddb69e2a3417da"
+    },
+    "docs/eng/posts/eng/24_Matthew 6:19-21/index.html": {
+      "checksum": "6ef708ab3d1993303c0a26ebb6924cd2"
+    },
+    "docs/eng/posts/eng/25_Matthew 6:33/index.html": {
+      "checksum": "ebc68eb8e18d1d32d0f696379c1ef2cb"
+    },
+    "docs/eng/posts/eng/26_John 1:10-12/index.html": {
+      "checksum": "d790b64664f2692c9abc48ebf58a6826"
+    },
+    "docs/eng/posts/eng/27_Mark 10:43-44/index.html": {
+      "checksum": "4867849f09e945be32b2d829ca3efc86"
+    },
+    "docs/eng/posts/eng/28_1John 2:15-17/index.html": {
+      "checksum": "1f31cdae837813596e8561669f9f5054"
+    },
+    "docs/eng/posts/eng/29_John 3-3/index.html": {
+      "checksum": "c1526345ce1595dd9f9797baf5aa7d59"
+    },
+    "docs/eng/posts/eng/30_Proverbs_1.7/index.html": {
+      "checksum": "f63cc9b8a7b5bf3e8dbb8a61e6221476"
+    },
+    "docs/eng/posts/eng/31_Hebrews_12.2/index.html": {
+      "checksum": "09071a6d8dc4e8dc065b4cc73e3d363f"
+    },
+    "docs/eng/posts/eng/32_Rev_19.16/index.html": {
+      "checksum": "d9c135f1414094815c38bfb5db1bb642"
+    },
+    "docs/eng/posts/eng/33_Matthew_19.23-30/index.html": {
+      "checksum": "e2125985b079b7c4a622c93d6abcc2bb"
+    },
+    "docs/eng/posts/eng/34_Exodus_20.18-19/index.html": {
+      "checksum": "1b734c2c66b041dc01ec8ddb127def25"
+    },
+    "docs/eng/posts/eng/35_Jeremiah_8.7/images/stork.webp": {
+      "checksum": "f200f54a027d7e016aa589f784ea3367"
+    },
+    "docs/eng/posts/eng/35_Jeremiah_8.7/index.html": {
+      "checksum": "823b37e1ee059f67d835d4334c2cadda"
+    },
+    "docs/eng/posts/eng/36_John_4.13-14/images/well0flife.webp": {
+      "checksum": "def9a1b50edd66cff7193be4518fd62c"
+    },
+    "docs/eng/posts/eng/36_John_4.13-14/index.html": {
+      "checksum": "9f251e4fb8ecd56c60be4ac13b6938f9"
+    },
+    "docs/eng/posts/eng/37_Genesis_37.24/images/thepit.webp": {
+      "checksum": "d2eb649fc0cdf3f14276e98757532317"
+    },
+    "docs/eng/posts/eng/37_Genesis_37.24/index.html": {
+      "checksum": "0d163e3655d2a2ad0a8204d3430e8844"
+    },
+    "docs/eng/posts/eng/38_Genesis_12.2-3/images/abram.webp": {
+      "checksum": "dded156710f8d34377f7f80838602389"
+    },
+    "docs/eng/posts/eng/38_Genesis_12.2-3/index.html": {
+      "checksum": "39cd7ac79957fb2897e54c27678f7300"
+    },
+    "docs/eng/posts/eng/39_Isaiah_9.2/images/DALL·E 2024-12-08 22.27.32 - A majestic scene capturing the greatest event on earth_ the arrival of the Lord Jesus Christ. The setting is a humble stable at night, bathed in a gen.webp": {
+      "checksum": "ab1e72fbc1dcb2499a8021e5bf2c412c"
+    },
+    "docs/eng/posts/eng/39_Isaiah_9.2/images/witness.webp": {
+      "checksum": "8ca87989e778c6938fa4db0595901dc5"
+    },
+    "docs/eng/posts/eng/39_Isaiah_9.2/images/witness2.webp": {
+      "checksum": "3f7cad4def318463931480891c54a2f4"
+    },
+    "docs/eng/posts/eng/39_Isaiah_9.2/index.html": {
+      "checksum": "2485385644fbf2de3ce3c472481fdab4"
+    },
+    "docs/eng/posts/img/annointed.webp": {
+      "checksum": "9e9be0befb05456ec857b472463f0348"
+    },
+    "docs/eng/posts/img/camel.webp": {
+      "checksum": "29884fa31219cdddda25659448db0bf9"
+    },
+    "docs/eng/posts/img/deatorlife.webp": {
+      "checksum": "85dd5816d73b10c4c1b40c97a26977ba"
+    },
+    "docs/eng/posts/img/easyyoke.webp": {
+      "checksum": "ab2151c5b356ad43dc4b5a3f5aa544f1"
+    },
+    "docs/eng/posts/img/greatweakness.webp": {
+      "checksum": "d10fce34897fb95871d3c80de22e383d"
+    },
+    "docs/eng/posts/img/grieving.webp": {
+      "checksum": "d2a6c364cba254dd649e22fef942ac1b"
+    },
+    "docs/eng/posts/img/insulted.webp": {
+      "checksum": "04e9b95d30079960fd9654758444b1c6"
+    },
+    "docs/eng/posts/img/invitation.webp": {
+      "checksum": "1ff7674ed649ac983d7e2c6e147e7231"
+    },
+    "docs/eng/posts/img/jcview.webp": {
+      "checksum": "480ed9fc59494d3956838e749627da38"
+    },
+    "docs/eng/posts/img/kingdomfirst.webp": {
+      "checksum": "dcfa1a7530a346c70d8f48875a32cce6"
+    },
+    "docs/eng/posts/img/kingofkings.webp": {
+      "checksum": "61d6928c73bf054221f656132e8438a1"
+    },
+    "docs/eng/posts/img/lonely.jpeg": {
+      "checksum": "6c363890dc6507a6d54d12bb044f2599"
+    },
+    "docs/eng/posts/img/loveandforgive.jpeg": {
+      "checksum": "dfabaa8c055a1b144d7f05563ed05781"
+    },
+    "docs/eng/posts/img/matt286.jpeg": {
+      "checksum": "024cc355b33f24724803cc7fe7d923dd"
+    },
+    "docs/eng/posts/img/matt515.jpeg": {
+      "checksum": "a305d1f36d2b8eda0e58fbcb69611035"
+    },
+    "docs/eng/posts/img/meek.webp": {
+      "checksum": "9035899cca03ad79a2766f7246939aec"
+    },
+    "docs/eng/posts/img/mephibosheth.webp": {
+      "checksum": "a7a02aa4aaadf981eed54456ea755613"
+    },
+    "docs/eng/posts/img/persecuted.webp": {
+      "checksum": "101ff447f63fe39ee7572c6166a2d3bb"
+    },
+    "docs/eng/posts/img/powerless.webp": {
+      "checksum": "a7abe9c42521a056e1a7d350a5a4c157"
+    },
+    "docs/eng/posts/img/psalm13.jpeg": {
+      "checksum": "667cd3e9fbb2d0edf115bf5a8f641762"
+    },
+    "docs/eng/posts/img/reborn.webp": {
+      "checksum": "b835416a60aa5bd3d0e1a97156e87a22"
+    },
+    "docs/eng/posts/img/righteousness.webp": {
+      "checksum": "273844aabae4d1535193a2b111152bb5"
+    },
+    "docs/eng/posts/img/rockypath.webp": {
+      "checksum": "262361eb7b11618b3045cc88032291de"
+    },
+    "docs/eng/posts/img/seeUnseen.webp": {
+      "checksum": "a0dfaff1732a813feca8e6325b82e2cc"
+    },
+    "docs/eng/posts/img/service.jpeg": {
+      "checksum": "3b83ff96478e80558b54be4bb1c0dcbd"
+    },
+    "docs/eng/posts/img/sinai.webp": {
+      "checksum": "5de8458b594a8620ac162ec277694626"
+    },
+    "docs/eng/posts/img/thelight.webp": {
+      "checksum": "9a4c011126f978bffdda3d4d91d14f8f"
+    },
+    "docs/eng/posts/img/treasures.webp": {
+      "checksum": "7feb5dcd4ca107a96c9abe402d7e4d1e"
+    },
+    "docs/eng/posts/img/twogates.webp": {
+      "checksum": "4f506d498a2dc865e767b03e261c52bb"
+    },
+    "docs/eng/posts/img/uncursed.webp": {
+      "checksum": "3efaa669d95cc4ece9e8ee2bec8470f3"
+    },
+    "docs/eng/posts/img/upsidedownview.webp": {
+      "checksum": "b43391732dbd69057381ad5cf494fb84"
+    },
+    "docs/eng/posts/img/wisdom.webp": {
+      "checksum": "c9b6d89f9bb388d0ee4801426f954997"
+    },
+    "docs/eng/posts/img/wisefools.webp": {
+      "checksum": "1c96fd7ac5b7d0062a2528ce456b5f71"
+    },
+    "docs/eng/refers.html": {
+      "checksum": "05bbaafed3818e1bc0391410b5310136"
+    },
+    "docs/eng/remarks.html": {
+      "checksum": "9ab56474432ab473ee622b6407c78788"
+    },
+    "docs/esp/about-esp.html": {
+      "checksum": "ed35a1c2e9755b8869a86ce3ec998a57"
+    },
+    "docs/esp/cp_translation.html": {
+      "checksum": "dbb0edec8566a4ea212f2b4578cbbf74"
+    },
+    "docs/esp/images/ao_lab_logo.png": {
+      "checksum": "875b28baf982f28039817e08f03e669c"
+    },
+    "docs/esp/images/api_bible.png": {
+      "checksum": "ea269e3c715023f9d67ccd9061f7ba51"
+    },
+    "docs/esp/images/bibleapp.png": {
+      "checksum": "bf8089323b9a1ca33306de808aeeac47"
+    },
+    "docs/esp/images/bibleproject.png": {
+      "checksum": "172be62495e1ed2681cb4c321860617f"
+    },
+    "docs/esp/images/faithtech.png": {
+      "checksum": "fab1c0924ab356e77e35e242b7c96bb4"
+    },
+    "docs/esp/images/faithTools.png": {
+      "checksum": "883c48915b3c23c0ac2925dc1a0b0f62"
+    },
+    "docs/esp/images/imb.jpeg": {
+      "checksum": "7a48ddffc49826ce3554aa5e67c51271"
+    },
+    "docs/esp/images/lc.png": {
+      "checksum": "ce8a5ad00b61b6b56c9215b53c8e8482"
+    },
+    "docs/esp/images/namb.png": {
+      "checksum": "9792bd37cb392fe6f75beef1dade5889"
+    },
+    "docs/esp/images/ntw.png": {
+      "checksum": "172d8f14a16a4784918432c55d7bae5e"
+    },
+    "docs/esp/images/tud_logo300.png": {
+      "checksum": "ee292f175cc5f8ad04a3b9bc37ecfa69"
+    },
+    "docs/esp/index.html": {
+      "checksum": "4da24a9dc2f7aa5f494149e17703d308"
+    },
+    "docs/esp/observaciones.html": {
+      "checksum": "98384209c9b342874156bd87890d16aa"
+    },
+    "docs/esp/posts/esp/02_Matthew 28:6/index.html": {
+      "checksum": "701b7fdc4c2611661283b5f80006834f"
+    },
+    "docs/esp/posts/esp/03_Matthew 20:25-28/index.html": {
+      "checksum": "d734f3702aaccbb57f257f68913993b4"
+    },
+    "docs/esp/posts/esp/04_Matthew 5:43-48/index.html": {
+      "checksum": "6fef81b213a669968c7bd2b10e5d7192"
+    },
+    "docs/esp/posts/esp/05_Ezekiel 22:30-31/index.html": {
+      "checksum": "91dd578c00dd9f5f1892bb2337d2c00d"
+    },
+    "docs/esp/posts/esp/06_Matthew 16:25/index.html": {
+      "checksum": "0dfecdee1e1bbe9f13debebdb697d93a"
+    },
+    "docs/esp/posts/esp/07_1 Corinthians 3:18-19/index.html": {
+      "checksum": "98bd6265b370d40386036a5cfaf94237"
+    },
+    "docs/esp/posts/esp/08_Matthew 11:28-30/index.html": {
+      "checksum": "1a15cf25a06b09e0074212974b4b7f6a"
+    },
+    "docs/esp/posts/esp/09_Matthew 22:14/index.html": {
+      "checksum": "34abb289b54aad9fe33f2e54d3df40b9"
+    },
+    "docs/esp/posts/esp/10_2 Corinthians 4:18/index.html": {
+      "checksum": "905f06594f4b258d43d41d17174c60e8"
+    },
+    "docs/esp/posts/esp/11_2 Corinthians 12:9/index.html": {
+      "checksum": "3f878c597e7ab485185eda596daf5227"
+    },
+    "docs/esp/posts/esp/12_Matthew 5:3/index.html": {
+      "checksum": "9e196d1c1594706294f96c11b4d9854e"
+    },
+    "docs/esp/posts/esp/13_Matthew 5:15/index.html": {
+      "checksum": "27c1e4236d0787578426765b79387917"
+    },
+    "docs/esp/posts/esp/14_Matthew 5:4/index.html": {
+      "checksum": "775f3db801dee6a863f73dd5b5779060"
+    },
+    "docs/esp/posts/esp/15_Psalm 1:3/index.html": {
+      "checksum": "6b09998f04b146becadde59d936135fd"
+    },
+    "docs/esp/posts/esp/16_Matthew 7:13-14/index.html": {
+      "checksum": "8263cb6b046f5f50d7087e3803648bc7"
+    },
+    "docs/esp/posts/esp/17_Matthew 5:5/index.html": {
+      "checksum": "a1f3b21cd48221a60fc233e6962cdc56"
+    },
+    "docs/esp/posts/esp/18_2 Samuel 9:1-13/index.html": {
+      "checksum": "ea98ba9e20034f3b69125bad6d86790f"
+    },
+    "docs/esp/posts/esp/19_Matthew 5:10/index.html": {
+      "checksum": "84dc601a9adec7e71f274b780b236d31"
+    },
+    "docs/esp/posts/esp/20_1 Samuel 16:1-13/index.html": {
+      "checksum": "f97e2295c8f0f739b78defa6f045cd64"
+    },
+    "docs/esp/posts/esp/21_Matthew 5:6/index.html": {
+      "checksum": "bd2b3535de359388acb36352fbedc247"
+    },
+    "docs/esp/posts/esp/22_Matthew 5:11/index.html": {
+      "checksum": "64879a04a97c1958fb3f353532b8f0d0"
+    },
+    "docs/esp/posts/esp/23_Galatians 3:13/index.html": {
+      "checksum": "5c79a7956e97f0e09f912d8c39c037c3"
+    },
+    "docs/esp/posts/esp/24_Matthew 6:19-21/index.html": {
+      "checksum": "511f670edddf816fdcbaae799e437624"
+    },
+    "docs/esp/posts/esp/25_Matthew 6:33/index.html": {
+      "checksum": "0d35b22a9706e49e6ab5621a0a3e9143"
+    },
+    "docs/esp/posts/esp/26_John 1:10-12/index.html": {
+      "checksum": "239c7fd146253d0f9c67a89b3d8b1fd7"
+    },
+    "docs/esp/posts/esp/27_Mark 10:43-44/index.html": {
+      "checksum": "8598e2bb3eacae7cca10e5baed0949ef"
+    },
+    "docs/esp/posts/esp/28_1John 2:15-17/index.html": {
+      "checksum": "6850a014ffec1ee515850221c3dc73be"
+    },
+    "docs/esp/posts/esp/29_John 3:3/index.html": {
+      "checksum": "700c25829b7bd9334069861e97cc2393"
+    },
+    "docs/esp/posts/esp/30_Proverbs_1.7/index.html": {
+      "checksum": "a2988e30e4b9f33e7291682e68c081af"
+    },
+    "docs/esp/posts/esp/31_Hebrews_12.2/index.html": {
+      "checksum": "a35f9bab80bd188d7b6d4cac78d6c301"
+    },
+    "docs/esp/posts/esp/32_Rev_19.16/index.html": {
+      "checksum": "8873d6126e9f3922b1c4e42d9b4a08f2"
+    },
+    "docs/esp/posts/esp/33_Matthew_19.23-30/index.html": {
+      "checksum": "ffe3ef1d314edfc94fd83f8786b3e5c1"
+    },
+    "docs/esp/posts/esp/34_Exodus-20.18-19/index.html": {
+      "checksum": "e866f4b193200de362643ddc738ca86c"
+    },
+    "docs/esp/posts/esp/35_Jeremiah_8.7/images/stork.webp": {
+      "checksum": "f200f54a027d7e016aa589f784ea3367"
+    },
+    "docs/esp/posts/esp/35_Jeremiah_8.7/index.html": {
+      "checksum": "7343d450b2f9a62ca7127c07b1629daf"
+    },
+    "docs/esp/posts/esp/36_John_4.13-14/images/well0flife.webp": {
+      "checksum": "def9a1b50edd66cff7193be4518fd62c"
+    },
+    "docs/esp/posts/esp/36_John_4.13-14/index.html": {
+      "checksum": "359b926b3ffa3b1bd9718cf104a6ef15"
+    },
+    "docs/esp/posts/esp/37_Genesis_37.24/images/thepit.webp": {
+      "checksum": "d2eb649fc0cdf3f14276e98757532317"
+    },
+    "docs/esp/posts/esp/37_Genesis_37.24/index.html": {
+      "checksum": "fe7f8597c08df212f5d9695b9bfa422e"
+    },
+    "docs/esp/posts/esp/38_Genesis_12.2-3/images/abram.webp": {
+      "checksum": "dded156710f8d34377f7f80838602389"
+    },
+    "docs/esp/posts/esp/38_Genesis_12.2-3/index.html": {
+      "checksum": "99d3ff0bc768460867c4903f9e1d674f"
+    },
+    "docs/esp/posts/esp/39_Isaiah_9.2/images/witness2.webp": {
+      "checksum": "3f7cad4def318463931480891c54a2f4"
+    },
+    "docs/esp/posts/esp/39_Isaiah_9.2/index.html": {
+      "checksum": "ada80d6a0c3974887bded5b451aa4f1f"
+    },
+    "docs/esp/posts/img/annointed.webp": {
+      "checksum": "9e9be0befb05456ec857b472463f0348"
+    },
+    "docs/esp/posts/img/camel.webp": {
+      "checksum": "29884fa31219cdddda25659448db0bf9"
+    },
+    "docs/esp/posts/img/deatorlife.webp": {
+      "checksum": "85dd5816d73b10c4c1b40c97a26977ba"
+    },
+    "docs/esp/posts/img/easyyoke.webp": {
+      "checksum": "ab2151c5b356ad43dc4b5a3f5aa544f1"
+    },
+    "docs/esp/posts/img/greatweakness.webp": {
+      "checksum": "d10fce34897fb95871d3c80de22e383d"
+    },
+    "docs/esp/posts/img/grieving.webp": {
+      "checksum": "d2a6c364cba254dd649e22fef942ac1b"
+    },
+    "docs/esp/posts/img/insulted.webp": {
+      "checksum": "04e9b95d30079960fd9654758444b1c6"
+    },
+    "docs/esp/posts/img/invitation.webp": {
+      "checksum": "1ff7674ed649ac983d7e2c6e147e7231"
+    },
+    "docs/esp/posts/img/jcview.webp": {
+      "checksum": "480ed9fc59494d3956838e749627da38"
+    },
+    "docs/esp/posts/img/kingdomfirst.webp": {
+      "checksum": "dcfa1a7530a346c70d8f48875a32cce6"
+    },
+    "docs/esp/posts/img/kingofkings.webp": {
+      "checksum": "61d6928c73bf054221f656132e8438a1"
+    },
+    "docs/esp/posts/img/lonely.jpeg": {
+      "checksum": "6c363890dc6507a6d54d12bb044f2599"
+    },
+    "docs/esp/posts/img/loveandforgive.jpeg": {
+      "checksum": "dfabaa8c055a1b144d7f05563ed05781"
+    },
+    "docs/esp/posts/img/matt286.jpeg": {
+      "checksum": "024cc355b33f24724803cc7fe7d923dd"
+    },
+    "docs/esp/posts/img/matt515.jpeg": {
+      "checksum": "a305d1f36d2b8eda0e58fbcb69611035"
+    },
+    "docs/esp/posts/img/meek.webp": {
+      "checksum": "9035899cca03ad79a2766f7246939aec"
+    },
+    "docs/esp/posts/img/mephibosheth.webp": {
+      "checksum": "a7a02aa4aaadf981eed54456ea755613"
+    },
+    "docs/esp/posts/img/persecuted.webp": {
+      "checksum": "101ff447f63fe39ee7572c6166a2d3bb"
+    },
+    "docs/esp/posts/img/powerless.webp": {
+      "checksum": "a7abe9c42521a056e1a7d350a5a4c157"
+    },
+    "docs/esp/posts/img/psalm13.jpeg": {
+      "checksum": "667cd3e9fbb2d0edf115bf5a8f641762"
+    },
+    "docs/esp/posts/img/reborn.webp": {
+      "checksum": "b835416a60aa5bd3d0e1a97156e87a22"
+    },
+    "docs/esp/posts/img/righteousness.webp": {
+      "checksum": "273844aabae4d1535193a2b111152bb5"
+    },
+    "docs/esp/posts/img/rockypath.webp": {
+      "checksum": "262361eb7b11618b3045cc88032291de"
+    },
+    "docs/esp/posts/img/seeUnseen.webp": {
+      "checksum": "a0dfaff1732a813feca8e6325b82e2cc"
+    },
+    "docs/esp/posts/img/service.jpeg": {
+      "checksum": "3b83ff96478e80558b54be4bb1c0dcbd"
+    },
+    "docs/esp/posts/img/sinai.webp": {
+      "checksum": "5de8458b594a8620ac162ec277694626"
+    },
+    "docs/esp/posts/img/stork.webp": {
+      "checksum": "f200f54a027d7e016aa589f784ea3367"
+    },
+    "docs/esp/posts/img/thelight.webp": {
+      "checksum": "9a4c011126f978bffdda3d4d91d14f8f"
+    },
+    "docs/esp/posts/img/treasures.webp": {
+      "checksum": "7feb5dcd4ca107a96c9abe402d7e4d1e"
+    },
+    "docs/esp/posts/img/twogates.webp": {
+      "checksum": "4f506d498a2dc865e767b03e261c52bb"
+    },
+    "docs/esp/posts/img/uncursed.webp": {
+      "checksum": "3efaa669d95cc4ece9e8ee2bec8470f3"
+    },
+    "docs/esp/posts/img/upsidedownview.webp": {
+      "checksum": "b43391732dbd69057381ad5cf494fb84"
+    },
+    "docs/esp/posts/img/wisdom.webp": {
+      "checksum": "c9b6d89f9bb388d0ee4801426f954997"
+    },
+    "docs/esp/posts/img/wisefools.webp": {
+      "checksum": "1c96fd7ac5b7d0062a2528ce456b5f71"
+    },
+    "docs/esp/refers-esp.html": {
+      "checksum": "f83af881169f4203de5979545b12e706"
+    },
+    "docs/images/round_logo2.png": {
+      "checksum": "28b1f6cdc982f1b534f555e36bc8e71f"
+    },
+    "docs/images/tud_logo2.png": {
+      "checksum": "4f83d717a05253f91fa761d4d096cf8c"
+    },
+    "docs/images/usdkingdm3.jpeg": {
+      "checksum": "8cc0f52d0c62740af2092935bbb9a89d"
+    },
+    "docs/images/warfare.png": {
+      "checksum": "64ffd69ab9ebd2976513cc5866632c7b"
+    },
+    "docs/index.html": {
+      "checksum": "00025142982bca0ad726e1bbf14c1814"
+    },
+    "docs/listings.json": {
+      "checksum": "99f63f0f7b6926093eeb935575373b08"
+    },
+    "docs/robots.txt": {
+      "checksum": "beffb9e58a399f2cfd7163398954f523"
+    },
+    "docs/search.json": {
+      "checksum": "7a4c1d08033b1c9d75118df5f80ef0fc"
+    },
+    "docs/site_libs/bootstrap/bootstrap-dark.min.css": {
+      "checksum": "c89d267bdb03a550bd6dc193b9dddc76"
+    },
+    "docs/site_libs/bootstrap/bootstrap-icons.css": {
+      "checksum": "2318f137d201fbf51601fa0faba6bef7"
+    },
+    "docs/site_libs/bootstrap/bootstrap-icons.woff": {
+      "checksum": "1a51dfbe5467607389d603c02a77cd10"
+    },
+    "docs/site_libs/bootstrap/bootstrap.min.css": {
+      "checksum": "b983accfb09a8c34ac26a34b4fcdbdef"
+    },
+    "docs/site_libs/bootstrap/bootstrap.min.js": {
+      "checksum": "e2b09c06f0e714b6144a6788a28e3950"
+    },
+    "docs/site_libs/clipboard/clipboard.min.js": {
+      "checksum": "15f52a1ee547f2bdd46e56747332ca2d"
+    },
+    "docs/site_libs/quarto-html/anchor.min.js": {
+      "checksum": "91bcf6cd1fd88fec3f109811e5fc3546"
+    },
+    "docs/site_libs/quarto-html/popper.min.js": {
+      "checksum": "3a4a291ccf3f1ea0f82b641542fd3827"
+    },
+    "docs/site_libs/quarto-html/quarto-syntax-highlighting-dark.css": {
+      "checksum": "4dca331c0806f351d3f630ba7f039574"
+    },
+    "docs/site_libs/quarto-html/quarto-syntax-highlighting.css": {
+      "checksum": "ab2b9e94a89b131e869fd951d6355545"
+    },
+    "docs/site_libs/quarto-html/quarto.js": {
+      "checksum": "7563d37e31580c9573af5b12aa3779a2"
+    },
+    "docs/site_libs/quarto-html/tippy.css": {
+      "checksum": "ebd6f8ce46a677e1a4f5f8a8317109a9"
+    },
+    "docs/site_libs/quarto-html/tippy.umd.min.js": {
+      "checksum": "d828775275749701b48bd9d958814111"
+    },
+    "docs/site_libs/quarto-listing/list.min.js": {
+      "checksum": "df008d556d30a58784f086e4b3eec307"
+    },
+    "docs/site_libs/quarto-listing/quarto-listing.js": {
+      "checksum": "77cf2d966f525295f151063bfdc627a7"
+    },
+    "docs/site_libs/quarto-nav/quarto-nav.js": {
+      "checksum": "12d334846b27bdb493298c08277bdf7f"
+    },
+    "docs/site_libs/quarto-search/autocomplete.umd.js": {
+      "checksum": "c64544db941e048f2652217cb9a7f29c"
+    },
+    "docs/site_libs/quarto-search/fuse.min.js": {
+      "checksum": "de7d60e4a6881074275feca14b84a49d"
+    },
+    "docs/site_libs/quarto-search/quarto-search.js": {
+      "checksum": "bb16b7e73be13eba97c99d25b2a476b3"
+    },
+    "docs/sitemap.xml": {
+      "checksum": "af7b7e657d202035dda9c358806617f8"
+    },
+    "docs/styles.css": {
+      "checksum": "cf636d3ad92a18909b04f3202fe63996"
+    },
+    "eng/about.qmd": {
+      "checksum": "92dd35dce06a19cf01578e8ad28edeb8"
+    },
+    "eng/images/ao_lab_logo.png": {
+      "checksum": "875b28baf982f28039817e08f03e669c"
+    },
+    "eng/images/api_bible.png": {
+      "checksum": "ea269e3c715023f9d67ccd9061f7ba51"
+    },
+    "eng/images/bibleapp.png": {
+      "checksum": "bf8089323b9a1ca33306de808aeeac47"
+    },
+    "eng/images/bibleproject.png": {
+      "checksum": "172be62495e1ed2681cb4c321860617f"
+    },
+    "eng/images/faithtech.png": {
+      "checksum": "fab1c0924ab356e77e35e242b7c96bb4"
+    },
+    "eng/images/faithTools.png": {
+      "checksum": "883c48915b3c23c0ac2925dc1a0b0f62"
+    },
+    "eng/images/imb.jpeg": {
+      "checksum": "7a48ddffc49826ce3554aa5e67c51271"
+    },
+    "eng/images/lc.png": {
+      "checksum": "ce8a5ad00b61b6b56c9215b53c8e8482"
+    },
+    "eng/images/namb.png": {
+      "checksum": "9792bd37cb392fe6f75beef1dade5889"
+    },
+    "eng/images/ntw.png": {
+      "checksum": "172d8f14a16a4784918432c55d7bae5e"
+    },
+    "eng/images/round_logo2.png": {
+      "checksum": "28b1f6cdc982f1b534f555e36bc8e71f"
+    },
+    "eng/images/tud_logo2.png": {
+      "checksum": "4f83d717a05253f91fa761d4d096cf8c"
+    },
+    "eng/images/tud_logo300.png": {
+      "checksum": "ee292f175cc5f8ad04a3b9bc37ecfa69"
+    },
+    "eng/images/usdfavi.png": {
+      "checksum": "595bd036690ca41fa9f73bd598d36e62"
+    },
+    "eng/images/vrbx.jpg": {
+      "checksum": "5943bacb71fe878748cde6851e09917b"
+    },
+    "eng/images/warfare.png": {
+      "checksum": "64ffd69ab9ebd2976513cc5866632c7b"
+    },
+    "eng/index.qmd": {
+      "checksum": "894fc05a48b5515daf7c290391bfa524"
+    },
+    "eng/posts/eng/_metadata.yml": {
+      "checksum": "8bcb6b29f0a2436c347a042c69ef43a5"
+    },
+    "eng/posts/eng/02_Matthew 28:6/index.qmd": {
+      "checksum": "fa39e8b674900b1f42422c4590cbb6ea"
+    },
+    "eng/posts/eng/03_Matthew 20:25-28/index.qmd": {
+      "checksum": "e72b0cb1e14fb833bdb599d905e567e6"
+    },
+    "eng/posts/eng/04_Matthew 5:43-48/index.qmd": {
+      "checksum": "a5022e74e21b4f66a3266e7041119866"
+    },
+    "eng/posts/eng/05_Ezekiel 22:30-31/index.qmd": {
+      "checksum": "1cc1b5c9fd4f41b42a753260c8c5407e"
+    },
+    "eng/posts/eng/06_Matthew 16:25/index.qmd": {
+      "checksum": "6e9e1372c9bdf6e722cc9be8e6dba2c0"
+    },
+    "eng/posts/eng/07_1 Corinthians 3:18-19/index.qmd": {
+      "checksum": "4f2e7ebd922105abf4bb40a8bd1e929f"
+    },
+    "eng/posts/eng/08_Matthew 11:28-30/index.qmd": {
+      "checksum": "85fe55909df7d29a71a196bc495442f5"
+    },
+    "eng/posts/eng/09_Matthew 22:14/index.qmd": {
+      "checksum": "77bcc38fd7e80cbbe7e2f902bea031cf"
+    },
+    "eng/posts/eng/10_2 Corinthians 4:18/index.qmd": {
+      "checksum": "117a558055b04974ea5a7c1b9de3bc00"
+    },
+    "eng/posts/eng/11_2 Corinthians 12:9/index.qmd": {
+      "checksum": "8e795645003cd1587bce7bea0ad7ea58"
+    },
+    "eng/posts/eng/12_Matthew 5:3/index.qmd": {
+      "checksum": "f889cdf3a8429c7cae9aeb1b6abc86c4"
+    },
+    "eng/posts/eng/13_Matthew 5:15/index.qmd": {
+      "checksum": "c756eadc465fa0efeedefbf31de75bad"
+    },
+    "eng/posts/eng/14_Matthew 5:4/index.qmd": {
+      "checksum": "8692630c06395e4b458def968e3d40b0"
+    },
+    "eng/posts/eng/15_Psalm 1:3/index.qmd": {
+      "checksum": "092fdef07ea09e88a949ea7a9b62ab9c"
+    },
+    "eng/posts/eng/16_Matthew 7:13-14/index.qmd": {
+      "checksum": "79ec57668641dd06f83ce57f80159182"
+    },
+    "eng/posts/eng/17_Matthew 5:5/index.qmd": {
+      "checksum": "2c1bede963b1737323ba0f42613c9ca7"
+    },
+    "eng/posts/eng/18_2 Samuel 9:1-13/index.qmd": {
+      "checksum": "2a0f8a2340fad747ec39cf0e56082357"
+    },
+    "eng/posts/eng/19_Matthew 5:10/index.qmd": {
+      "checksum": "a4804b67513d7fd30d3f3c194f13f85a"
+    },
+    "eng/posts/eng/20_1 Samuel 16:1-13/index.qmd": {
+      "checksum": "86748215080afa7125dec1bea285f597"
+    },
+    "eng/posts/eng/21_Matthew 5:6/index.qmd": {
+      "checksum": "d0f2524f23de83bc0b65933cbae8ea70"
+    },
+    "eng/posts/eng/22_Matthew 5:11/index.qmd": {
+      "checksum": "981822b0dbf3f01937b99dce303f0047"
+    },
+    "eng/posts/eng/23_Galatians 3:13/index.qmd": {
+      "checksum": "a347313df35595c1faf53e6609759e6b"
+    },
+    "eng/posts/eng/24_Matthew 6:19-21/index.qmd": {
+      "checksum": "0bfe9f8c215510c39531faf41f131823"
+    },
+    "eng/posts/eng/25_Matthew 6:33/index.qmd": {
+      "checksum": "1bcd07d3f9e962e820e358ee13ac3a37"
+    },
+    "eng/posts/eng/26_John 1:10-12/index.qmd": {
+      "checksum": "8a7d899286e4b6478d3c545b127047df"
+    },
+    "eng/posts/eng/27_Mark 10:43-44/index.qmd": {
+      "checksum": "d291f8e84cdd835e3487f8660f6a4210"
+    },
+    "eng/posts/eng/28_1John 2:15-17/index.qmd": {
+      "checksum": "ca266df7488bd7465d4acdc147c4b222"
+    },
+    "eng/posts/eng/29_John 3-3/index.qmd": {
+      "checksum": "65ebec975f9a64b4e41e5de035979515"
+    },
+    "eng/posts/eng/30_Proverbs_1.7/index.qmd": {
+      "checksum": "c860306fab98950ff9fe94e4f9c10072"
+    },
+    "eng/posts/eng/31_Hebrews_12.2/index.qmd": {
+      "checksum": "64424d830be61c1b4286b41665aed464"
+    },
+    "eng/posts/eng/32_Rev_19.16/index.qmd": {
+      "checksum": "2021e12c1ddedc34bd864b34e2e91f8c"
+    },
+    "eng/posts/eng/33_Matthew_19.23-30/index.qmd": {
+      "checksum": "a2ec9aa3c0eeca97d4c1e507dcf18e58"
+    },
+    "eng/posts/eng/34_Exodus_20.18-19/index.qmd": {
+      "checksum": "6e07ac4c7bfb41c84998ad97db45d3a1"
+    },
+    "eng/posts/eng/35_Jeremiah_8.7/images/stork.webp": {
+      "checksum": "f200f54a027d7e016aa589f784ea3367"
+    },
+    "eng/posts/eng/35_Jeremiah_8.7/index.qmd": {
+      "checksum": "a1fd9a5ea706728c655a78afdf693acd"
+    },
+    "eng/posts/eng/36_John_4.13-14/images/well0flife.webp": {
+      "checksum": "def9a1b50edd66cff7193be4518fd62c"
+    },
+    "eng/posts/eng/36_John_4.13-14/index.qmd": {
+      "checksum": "d333ac2af7519fbd3f8c238d0bb87bfd"
+    },
+    "eng/posts/eng/37_Genesis_37.24/images/thepit.webp": {
+      "checksum": "d2eb649fc0cdf3f14276e98757532317"
+    },
+    "eng/posts/eng/37_Genesis_37.24/index.qmd": {
+      "checksum": "8126d2f485e0aca5e2fae25dd94a7f51"
+    },
+    "eng/posts/eng/38_Genesis_12.2-3/images/abram.webp": {
+      "checksum": "dded156710f8d34377f7f80838602389"
+    },
+    "eng/posts/eng/38_Genesis_12.2-3/index.qmd": {
+      "checksum": "5540760273d4baf4d405cfb94c97331a"
+    },
+    "eng/posts/eng/39_Isaiah_9.2/images/DALL·E 2024-12-08 22.27.32 - A majestic scene capturing the greatest event on earth_ the arrival of the Lord Jesus Christ. The setting is a humble stable at night, bathed in a gen.webp": {
+      "checksum": "ab1e72fbc1dcb2499a8021e5bf2c412c"
+    },
+    "eng/posts/eng/39_Isaiah_9.2/images/witness.webp": {
+      "checksum": "8ca87989e778c6938fa4db0595901dc5"
+    },
+    "eng/posts/eng/39_Isaiah_9.2/images/witness2.webp": {
+      "checksum": "3f7cad4def318463931480891c54a2f4"
+    },
+    "eng/posts/eng/39_Isaiah_9.2/index.qmd": {
+      "checksum": "877f3929fbef531dade4f12a9be02a0e"
+    },
+    "eng/posts/img/abram.webp": {
+      "checksum": "dded156710f8d34377f7f80838602389"
+    },
+    "eng/posts/img/annointed.webp": {
+      "checksum": "9e9be0befb05456ec857b472463f0348"
+    },
+    "eng/posts/img/camel.webp": {
+      "checksum": "29884fa31219cdddda25659448db0bf9"
+    },
+    "eng/posts/img/deatorlife.webp": {
+      "checksum": "85dd5816d73b10c4c1b40c97a26977ba"
+    },
+    "eng/posts/img/easyyoke.webp": {
+      "checksum": "ab2151c5b356ad43dc4b5a3f5aa544f1"
+    },
+    "eng/posts/img/greatweakness.webp": {
+      "checksum": "d10fce34897fb95871d3c80de22e383d"
+    },
+    "eng/posts/img/grieving.webp": {
+      "checksum": "d2a6c364cba254dd649e22fef942ac1b"
+    },
+    "eng/posts/img/insulted.webp": {
+      "checksum": "04e9b95d30079960fd9654758444b1c6"
+    },
+    "eng/posts/img/invitation.webp": {
+      "checksum": "1ff7674ed649ac983d7e2c6e147e7231"
+    },
+    "eng/posts/img/jcview.webp": {
+      "checksum": "480ed9fc59494d3956838e749627da38"
+    },
+    "eng/posts/img/kingdomfirst.webp": {
+      "checksum": "dcfa1a7530a346c70d8f48875a32cce6"
+    },
+    "eng/posts/img/kingofkings.webp": {
+      "checksum": "61d6928c73bf054221f656132e8438a1"
+    },
+    "eng/posts/img/lonely.jpeg": {
+      "checksum": "6c363890dc6507a6d54d12bb044f2599"
+    },
+    "eng/posts/img/loveandforgive.jpeg": {
+      "checksum": "dfabaa8c055a1b144d7f05563ed05781"
+    },
+    "eng/posts/img/matt286.jpeg": {
+      "checksum": "024cc355b33f24724803cc7fe7d923dd"
+    },
+    "eng/posts/img/matt515.jpeg": {
+      "checksum": "a305d1f36d2b8eda0e58fbcb69611035"
+    },
+    "eng/posts/img/meek.webp": {
+      "checksum": "9035899cca03ad79a2766f7246939aec"
+    },
+    "eng/posts/img/mephibosheth.webp": {
+      "checksum": "a7a02aa4aaadf981eed54456ea755613"
+    },
+    "eng/posts/img/persecuted.webp": {
+      "checksum": "101ff447f63fe39ee7572c6166a2d3bb"
+    },
+    "eng/posts/img/powerless.webp": {
+      "checksum": "a7abe9c42521a056e1a7d350a5a4c157"
+    },
+    "eng/posts/img/psalm13.jpeg": {
+      "checksum": "667cd3e9fbb2d0edf115bf5a8f641762"
+    },
+    "eng/posts/img/quarto.png": {
+      "checksum": "e81e2883d5ff15635970634e0e54b14d"
+    },
+    "eng/posts/img/reborn.webp": {
+      "checksum": "b835416a60aa5bd3d0e1a97156e87a22"
+    },
+    "eng/posts/img/righteousness.webp": {
+      "checksum": "273844aabae4d1535193a2b111152bb5"
+    },
+    "eng/posts/img/rockypath.webp": {
+      "checksum": "262361eb7b11618b3045cc88032291de"
+    },
+    "eng/posts/img/seeUnseen.webp": {
+      "checksum": "a0dfaff1732a813feca8e6325b82e2cc"
+    },
+    "eng/posts/img/service.jpeg": {
+      "checksum": "3b83ff96478e80558b54be4bb1c0dcbd"
+    },
+    "eng/posts/img/sinai.webp": {
+      "checksum": "5de8458b594a8620ac162ec277694626"
+    },
+    "eng/posts/img/stork.webp": {
+      "checksum": "f200f54a027d7e016aa589f784ea3367"
+    },
+    "eng/posts/img/thelight.webp": {
+      "checksum": "9a4c011126f978bffdda3d4d91d14f8f"
+    },
+    "eng/posts/img/thepit.webp": {
+      "checksum": "d2eb649fc0cdf3f14276e98757532317"
+    },
+    "eng/posts/img/treasures.webp": {
+      "checksum": "7feb5dcd4ca107a96c9abe402d7e4d1e"
+    },
+    "eng/posts/img/twogates.webp": {
+      "checksum": "4f506d498a2dc865e767b03e261c52bb"
+    },
+    "eng/posts/img/uncursed.webp": {
+      "checksum": "3efaa669d95cc4ece9e8ee2bec8470f3"
+    },
+    "eng/posts/img/upsidedown2.png": {
+      "checksum": "ddf31387cc39009c4d8d1e21a540317b"
+    },
+    "eng/posts/img/upsidedown300.png": {
+      "checksum": "e0bc508ce55818033fb8fa0ea8c3d7ae"
+    },
+    "eng/posts/img/upsidedownview.webp": {
+      "checksum": "b43391732dbd69057381ad5cf494fb84"
+    },
+    "eng/posts/img/usdkingdm3.jpeg": {
+      "checksum": "8cc0f52d0c62740af2092935bbb9a89d"
+    },
+    "eng/posts/img/warfare.png": {
+      "checksum": "64ffd69ab9ebd2976513cc5866632c7b"
+    },
+    "eng/posts/img/well0flife.webp": {
+      "checksum": "def9a1b50edd66cff7193be4518fd62c"
+    },
+    "eng/posts/img/wisdom.webp": {
+      "checksum": "c9b6d89f9bb388d0ee4801426f954997"
+    },
+    "eng/posts/img/wisefools.webp": {
+      "checksum": "1c96fd7ac5b7d0062a2528ce456b5f71"
+    },
+    "eng/posts/img/witness.webp": {
+      "checksum": "8ca87989e778c6938fa4db0595901dc5"
+    },
+    "eng/posts/img/witness2.webp": {
+      "checksum": "3f7cad4def318463931480891c54a2f4"
+    },
+    "eng/refers.qmd": {
+      "checksum": "cb3cf39571e36c3fce5a354a81693a27"
+    },
+    "eng/remarks.qmd": {
+      "checksum": "03fc4104a448db0dfe6937692a9c0b44"
+    },
+    "eng/styles.css": {
+      "checksum": "cf636d3ad92a18909b04f3202fe63996"
+    },
+    "esp/about-esp.qmd": {
+      "checksum": "781b63463cc2899bb8392193c22cd1e4"
+    },
+    "esp/cp_translation.qmd": {
+      "checksum": "13ee4276835d8052f0c0a8609b9e5785"
+    },
+    "esp/images/ao_lab_logo.png": {
+      "checksum": "875b28baf982f28039817e08f03e669c"
+    },
+    "esp/images/api_bible.png": {
+      "checksum": "ea269e3c715023f9d67ccd9061f7ba51"
+    },
+    "esp/images/bibleapp.png": {
+      "checksum": "bf8089323b9a1ca33306de808aeeac47"
+    },
+    "esp/images/bibleproject.png": {
+      "checksum": "172be62495e1ed2681cb4c321860617f"
+    },
+    "esp/images/faithtech.png": {
+      "checksum": "fab1c0924ab356e77e35e242b7c96bb4"
+    },
+    "esp/images/faithTools.png": {
+      "checksum": "883c48915b3c23c0ac2925dc1a0b0f62"
+    },
+    "esp/images/imb.jpeg": {
+      "checksum": "7a48ddffc49826ce3554aa5e67c51271"
+    },
+    "esp/images/lc.png": {
+      "checksum": "ce8a5ad00b61b6b56c9215b53c8e8482"
+    },
+    "esp/images/namb.png": {
+      "checksum": "9792bd37cb392fe6f75beef1dade5889"
+    },
+    "esp/images/ntw.png": {
+      "checksum": "172d8f14a16a4784918432c55d7bae5e"
+    },
+    "esp/images/round_logo2.png": {
+      "checksum": "28b1f6cdc982f1b534f555e36bc8e71f"
+    },
+    "esp/images/tud_logo2.png": {
+      "checksum": "4f83d717a05253f91fa761d4d096cf8c"
+    },
+    "esp/images/tud_logo300.png": {
+      "checksum": "ee292f175cc5f8ad04a3b9bc37ecfa69"
+    },
+    "esp/images/usdfavi.png": {
+      "checksum": "595bd036690ca41fa9f73bd598d36e62"
+    },
+    "esp/images/warfare.png": {
+      "checksum": "64ffd69ab9ebd2976513cc5866632c7b"
+    },
+    "esp/index.qmd": {
+      "checksum": "bd9be5099d37335b5e35ec3b478bf6a3"
+    },
+    "esp/observaciones.qmd": {
+      "checksum": "0b0323f3ac1345b726d2d295d57f68f8"
+    },
+    "esp/posts/esp/_metadata.yml": {
+      "checksum": "a6a88ef26baba95396acf281aeac1715"
+    },
+    "esp/posts/esp/02_Matthew 28:6/index.qmd": {
+      "checksum": "06d481133cfdfe067d7fdd604ba6b703"
+    },
+    "esp/posts/esp/03_Matthew 20:25-28/index.qmd": {
+      "checksum": "36767ca4b5b9875a69a563e8464cff09"
+    },
+    "esp/posts/esp/04_Matthew 5:43-48/index.qmd": {
+      "checksum": "dc4d88313f1674d5c4135ca52404fe12"
+    },
+    "esp/posts/esp/05_Ezekiel 22:30-31/index.qmd": {
+      "checksum": "8f735ff32e2e53a518891fe8446bd9fa"
+    },
+    "esp/posts/esp/06_Matthew 16:25/index.qmd": {
+      "checksum": "68e20d71f9c6820bb9a76318a1dfb87d"
+    },
+    "esp/posts/esp/07_1 Corinthians 3:18-19/index.qmd": {
+      "checksum": "02d7274cbca0c24a1f627cd049d6bbd9"
+    },
+    "esp/posts/esp/08_Matthew 11:28-30/index.qmd": {
+      "checksum": "2cb41a1b8c4e8430710300ed6ed62f89"
+    },
+    "esp/posts/esp/09_Matthew 22:14/index.qmd": {
+      "checksum": "72bfed041b4d41ad3edda40503ce80b5"
+    },
+    "esp/posts/esp/10_2 Corinthians 4:18/index.qmd": {
+      "checksum": "055edfc455e4332728be8ad4f12a47e3"
+    },
+    "esp/posts/esp/11_2 Corinthians 12:9/index.qmd": {
+      "checksum": "5b1c8878dc976f3ac7fe1da679d3ebe6"
+    },
+    "esp/posts/esp/12_Matthew 5:3/index.qmd": {
+      "checksum": "1ad86bbc5c59fa618093082bc35d1403"
+    },
+    "esp/posts/esp/13_Matthew 5:15/index.qmd": {
+      "checksum": "57983cbdc00c675d2cdc31576d0a0f2b"
+    },
+    "esp/posts/esp/14_Matthew 5:4/index.qmd": {
+      "checksum": "7408066300b2f5340ecd4f194a983fd8"
+    },
+    "esp/posts/esp/15_Psalm 1:3/index.qmd": {
+      "checksum": "6540d7cc5eb20feaef3ba91ff3168610"
+    },
+    "esp/posts/esp/16_Matthew 7:13-14/index.qmd": {
+      "checksum": "a4fba518b03249257162537db5e383ac"
+    },
+    "esp/posts/esp/17_Matthew 5:5/index.qmd": {
+      "checksum": "10f751b918128c85999b35038cc0cd10"
+    },
+    "esp/posts/esp/18_2 Samuel 9:1-13/index.qmd": {
+      "checksum": "5c56de25912755206edfd189ae66e31e"
+    },
+    "esp/posts/esp/19_Matthew 5:10/index.qmd": {
+      "checksum": "1094ad0c84efa30ba2a0e0ff088b59f1"
+    },
+    "esp/posts/esp/20_1 Samuel 16:1-13/index.qmd": {
+      "checksum": "47f715085bf13ecd99b7be0f6dc4ac3c"
+    },
+    "esp/posts/esp/21_Matthew 5:6/index.qmd": {
+      "checksum": "b41914e71298d3a229e477f2436b5cd9"
+    },
+    "esp/posts/esp/22_Matthew 5:11/index.qmd": {
+      "checksum": "4d4e1290477cef6a9a682b018c0fb0d9"
+    },
+    "esp/posts/esp/23_Galatians 3:13/index.qmd": {
+      "checksum": "508060da03347a54b8a235e457d139ba"
+    },
+    "esp/posts/esp/24_Matthew 6:19-21/index.qmd": {
+      "checksum": "584f11b01a0393dd5d972744f7e99d18"
+    },
+    "esp/posts/esp/25_Matthew 6:33/index.qmd": {
+      "checksum": "f604a68569ad018885e97276b894eb07"
+    },
+    "esp/posts/esp/26_John 1:10-12/index.qmd": {
+      "checksum": "3dbfea0dbbbf84abe26f7129ce93179a"
+    },
+    "esp/posts/esp/27_Mark 10:43-44/index.qmd": {
+      "checksum": "386809fb7f7484412cfe255369bbae63"
+    },
+    "esp/posts/esp/28_1John 2:15-17/index.qmd": {
+      "checksum": "b4652eab0f9d1930ec6dd50768c1352f"
+    },
+    "esp/posts/esp/29_John 3:3/index.qmd": {
+      "checksum": "2cbf37f0e3cb022fb60aaa2a9c8e8c82"
+    },
+    "esp/posts/esp/30_Proverbs_1.7/index.qmd": {
+      "checksum": "a3a7b967fbd27384ab05c9d976610c3c"
+    },
+    "esp/posts/esp/31_Hebrews_12.2/index.qmd": {
+      "checksum": "2d0561a4fbaaa80cdfbed2568f2ec6a4"
+    },
+    "esp/posts/esp/32_Rev_19.16/index.qmd": {
+      "checksum": "97f80fd10b6a31fdb93b5275a08117a5"
+    },
+    "esp/posts/esp/33_Matthew_19.23-30/index.qmd": {
+      "checksum": "c80c8d4a29a8409e9ea5371eaf3ee353"
+    },
+    "esp/posts/esp/34_Exodus-20.18-19/index.qmd": {
+      "checksum": "f45fa7d99cbb89cf343a8209b3eae5ca"
+    },
+    "esp/posts/esp/35_Jeremiah_8.7/images/stork.webp": {
+      "checksum": "f200f54a027d7e016aa589f784ea3367"
+    },
+    "esp/posts/esp/35_Jeremiah_8.7/index.qmd": {
+      "checksum": "22502d21f8622560e4194f9bb67b6d7e"
+    },
+    "esp/posts/esp/36_John_4.13-14/images/well0flife-01.webp": {
+      "checksum": "def9a1b50edd66cff7193be4518fd62c"
+    },
+    "esp/posts/esp/36_John_4.13-14/images/well0flife.webp": {
+      "checksum": "def9a1b50edd66cff7193be4518fd62c"
+    },
+    "esp/posts/esp/36_John_4.13-14/index.qmd": {
+      "checksum": "2ef52d1de2a70bc089596c0b9c9250c9"
+    },
+    "esp/posts/esp/37_Genesis_37.24/images/thepit.webp": {
+      "checksum": "d2eb649fc0cdf3f14276e98757532317"
+    },
+    "esp/posts/esp/37_Genesis_37.24/index.qmd": {
+      "checksum": "1f5fa4c0dbcdb4014aa462c1d3aede3f"
+    },
+    "esp/posts/esp/38_Genesis_12.2-3/images/abram.webp": {
+      "checksum": "dded156710f8d34377f7f80838602389"
+    },
+    "esp/posts/esp/38_Genesis_12.2-3/index.qmd": {
+      "checksum": "d7310785d9dc63908d3f98d8c5a17816"
+    },
+    "esp/posts/esp/39_Isaiah_9.2/images/witness2.webp": {
+      "checksum": "3f7cad4def318463931480891c54a2f4"
+    },
+    "esp/posts/esp/39_Isaiah_9.2/index.qmd": {
+      "checksum": "7e6c0c7c64ad61926a3029eab74c501d"
+    },
+    "esp/posts/img/abram.webp": {
+      "checksum": "dded156710f8d34377f7f80838602389"
+    },
+    "esp/posts/img/annointed.webp": {
+      "checksum": "9e9be0befb05456ec857b472463f0348"
+    },
+    "esp/posts/img/camel.webp": {
+      "checksum": "29884fa31219cdddda25659448db0bf9"
+    },
+    "esp/posts/img/deatorlife.webp": {
+      "checksum": "85dd5816d73b10c4c1b40c97a26977ba"
+    },
+    "esp/posts/img/easyyoke.webp": {
+      "checksum": "ab2151c5b356ad43dc4b5a3f5aa544f1"
+    },
+    "esp/posts/img/greatweakness.webp": {
+      "checksum": "d10fce34897fb95871d3c80de22e383d"
+    },
+    "esp/posts/img/grieving.webp": {
+      "checksum": "d2a6c364cba254dd649e22fef942ac1b"
+    },
+    "esp/posts/img/insulted.webp": {
+      "checksum": "04e9b95d30079960fd9654758444b1c6"
+    },
+    "esp/posts/img/invitation.webp": {
+      "checksum": "1ff7674ed649ac983d7e2c6e147e7231"
+    },
+    "esp/posts/img/jcview.webp": {
+      "checksum": "480ed9fc59494d3956838e749627da38"
+    },
+    "esp/posts/img/kingdomfirst.webp": {
+      "checksum": "dcfa1a7530a346c70d8f48875a32cce6"
+    },
+    "esp/posts/img/kingofkings.webp": {
+      "checksum": "61d6928c73bf054221f656132e8438a1"
+    },
+    "esp/posts/img/lonely.jpeg": {
+      "checksum": "6c363890dc6507a6d54d12bb044f2599"
+    },
+    "esp/posts/img/loveandforgive.jpeg": {
+      "checksum": "dfabaa8c055a1b144d7f05563ed05781"
+    },
+    "esp/posts/img/matt286.jpeg": {
+      "checksum": "024cc355b33f24724803cc7fe7d923dd"
+    },
+    "esp/posts/img/matt515.jpeg": {
+      "checksum": "a305d1f36d2b8eda0e58fbcb69611035"
+    },
+    "esp/posts/img/meek.webp": {
+      "checksum": "9035899cca03ad79a2766f7246939aec"
+    },
+    "esp/posts/img/mephibosheth.webp": {
+      "checksum": "a7a02aa4aaadf981eed54456ea755613"
+    },
+    "esp/posts/img/persecuted.webp": {
+      "checksum": "101ff447f63fe39ee7572c6166a2d3bb"
+    },
+    "esp/posts/img/powerless.webp": {
+      "checksum": "a7abe9c42521a056e1a7d350a5a4c157"
+    },
+    "esp/posts/img/psalm13.jpeg": {
+      "checksum": "667cd3e9fbb2d0edf115bf5a8f641762"
+    },
+    "esp/posts/img/quarto.png": {
+      "checksum": "e81e2883d5ff15635970634e0e54b14d"
+    },
+    "esp/posts/img/reborn.webp": {
+      "checksum": "b835416a60aa5bd3d0e1a97156e87a22"
+    },
+    "esp/posts/img/righteousness.webp": {
+      "checksum": "273844aabae4d1535193a2b111152bb5"
+    },
+    "esp/posts/img/rockypath.webp": {
+      "checksum": "262361eb7b11618b3045cc88032291de"
+    },
+    "esp/posts/img/seeUnseen.webp": {
+      "checksum": "a0dfaff1732a813feca8e6325b82e2cc"
+    },
+    "esp/posts/img/service.jpeg": {
+      "checksum": "3b83ff96478e80558b54be4bb1c0dcbd"
+    },
+    "esp/posts/img/sinai.webp": {
+      "checksum": "5de8458b594a8620ac162ec277694626"
+    },
+    "esp/posts/img/stork.webp": {
+      "checksum": "f200f54a027d7e016aa589f784ea3367"
+    },
+    "esp/posts/img/thelight.webp": {
+      "checksum": "9a4c011126f978bffdda3d4d91d14f8f"
+    },
+    "esp/posts/img/thepit.webp": {
+      "checksum": "d2eb649fc0cdf3f14276e98757532317"
+    },
+    "esp/posts/img/treasures.webp": {
+      "checksum": "7feb5dcd4ca107a96c9abe402d7e4d1e"
+    },
+    "esp/posts/img/twogates.webp": {
+      "checksum": "4f506d498a2dc865e767b03e261c52bb"
+    },
+    "esp/posts/img/uncursed.webp": {
+      "checksum": "3efaa669d95cc4ece9e8ee2bec8470f3"
+    },
+    "esp/posts/img/upsidedown2.png": {
+      "checksum": "ddf31387cc39009c4d8d1e21a540317b"
+    },
+    "esp/posts/img/upsidedown300.png": {
+      "checksum": "e0bc508ce55818033fb8fa0ea8c3d7ae"
+    },
+    "esp/posts/img/upsidedownview.webp": {
+      "checksum": "b43391732dbd69057381ad5cf494fb84"
+    },
+    "esp/posts/img/usdkingdm3.jpeg": {
+      "checksum": "8cc0f52d0c62740af2092935bbb9a89d"
+    },
+    "esp/posts/img/warfare.png": {
+      "checksum": "64ffd69ab9ebd2976513cc5866632c7b"
+    },
+    "esp/posts/img/well0flife.webp": {
+      "checksum": "def9a1b50edd66cff7193be4518fd62c"
+    },
+    "esp/posts/img/wisdom.webp": {
+      "checksum": "c9b6d89f9bb388d0ee4801426f954997"
+    },
+    "esp/posts/img/wisefools.webp": {
+      "checksum": "1c96fd7ac5b7d0062a2528ce456b5f71"
+    },
+    "esp/posts/img/witness2.webp": {
+      "checksum": "3f7cad4def318463931480891c54a2f4"
+    },
+    "esp/refers-esp.qmd": {
+      "checksum": "5c723be0905f002ea79e87c540dcbc47"
+    },
+    "esp/styles.css": {
+      "checksum": "cf636d3ad92a18909b04f3202fe63996"
+    },
+    "images/ao_lab_logo.png": {
+      "checksum": "875b28baf982f28039817e08f03e669c"
+    },
+    "images/api_bible.png": {
+      "checksum": "ea269e3c715023f9d67ccd9061f7ba51"
+    },
+    "images/bibleapp.png": {
+      "checksum": "bf8089323b9a1ca33306de808aeeac47"
+    },
+    "images/bibleproject.png": {
+      "checksum": "172be62495e1ed2681cb4c321860617f"
+    },
+    "images/cross2kingdom.jpeg": {
+      "checksum": "3b31b42cd3609ad2f47a205132a86cf2"
+    },
+    "images/faithtech.png": {
+      "checksum": "fab1c0924ab356e77e35e242b7c96bb4"
+    },
+    "images/faithTools.png": {
+      "checksum": "883c48915b3c23c0ac2925dc1a0b0f62"
+    },
+    "images/imb.jpeg": {
+      "checksum": "7a48ddffc49826ce3554aa5e67c51271"
+    },
+    "images/lc.png": {
+      "checksum": "ce8a5ad00b61b6b56c9215b53c8e8482"
+    },
+    "images/namb.png": {
+      "checksum": "9792bd37cb392fe6f75beef1dade5889"
+    },
+    "images/ntw.png": {
+      "checksum": "172d8f14a16a4784918432c55d7bae5e"
+    },
+    "images/ntwbook.png": {
+      "checksum": "6d81811ed111035f0ca3666956afac90"
+    },
+    "images/quarto.png": {
+      "checksum": "e81e2883d5ff15635970634e0e54b14d"
+    },
+    "images/round_logo2.png": {
+      "checksum": "28b1f6cdc982f1b534f555e36bc8e71f"
+    },
+    "images/tud_logo2.png": {
+      "checksum": "4f83d717a05253f91fa761d4d096cf8c"
+    },
+    "images/tud_logo300.png": {
+      "checksum": "ee292f175cc5f8ad04a3b9bc37ecfa69"
+    },
+    "images/usdfavi.png": {
+      "checksum": "595bd036690ca41fa9f73bd598d36e62"
+    },
+    "images/usdkingdm3.jpeg": {
+      "checksum": "8cc0f52d0c62740af2092935bbb9a89d"
+    },
+    "images/warfare.png": {
+      "checksum": "64ffd69ab9ebd2976513cc5866632c7b"
+    },
+    "index.qmd": {
+      "checksum": "d5240be8676aae499a989bb68a72d0f9"
+    },
+    "LICENSE": {
+      "checksum": "1ebbd3e34237af26da5dc08a4e440464"
+    },
+    "README.md": {
+      "checksum": "c7138c2a7158e0da23edcbf164392bce"
+    },
+    "styles.css": {
+      "checksum": "cf636d3ad92a18909b04f3202fe63996"
+    }
+  },
+  "users": null
+}
