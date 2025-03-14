@@ -16,7 +16,7 @@ title: "Observaciones"
 
 Como se ha observado, el contenido del blog "The Upside-Down" es generado, revisado y/o complementado por NTW, un “asistente impulsado con AI destinado a apoyar el crecimiento espiritual y la comprensión bíblica de sus usuarios. El mismo opera bajo la perspectiva conservadora, reformada y evangélica, enfocándose en el método histórico-gramatical de interpretación de las Escrituras.” [^1]
 
-[^1]: **About**: Meet Navigate The Way️. Retrieved from: <https://www.navtheway.com/introductory-interview>
+[^1]: **About**: Meet Navigate The Way️. Retrieved from:([NTW](https://www.navtheway.com){target="_blank"})
 
 Por lo tanto, en vista de que "The Upside-Down Blog" es una plataforma de gestión de información basada en la web que involucra contenido generado por tecnología considerada Inteligencia Artificial, es mi responsabilidad recordar a los usuarios sus posibles limitaciones. Para ello, consulte la página completamente dedicada a Puntos de Precaución de NTW️ o la traducción local en este documento: [LINK](cp_translation.qmd).
 

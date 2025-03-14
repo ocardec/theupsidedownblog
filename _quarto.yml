@@ -24,6 +24,8 @@ website:
             href: eng/about.qmd
           - text: "Remarks"
             href: eng/remarks.qmd
+          - text: "References"
+            href: eng/refers.qmd
       - text: "Español"
         menu: 
           - text: "Blog"
@@ -32,6 +34,8 @@ website:
             href: esp/about-esp.qmd
           - text: "Observaciones"
             href: esp/observaciones.qmd
+          - text: "Referencias"
+            href: esp/refers-esp.qmd
       - text: "Articles"
         menu: 
           - text: "Truth & Grace"
@@ -39,51 +43,39 @@ website:
           - text: "Tune His Frequency"
             href: articles/tune_his_freq.qmd
             
-      - text: "References"
-        href: eng/refers.qmd
     right:
-      # - icon: person
-      #   href: https://ocardec.netlify.app
-      #   target: _blank
+      - icon: person
+        href: https://ocardec.netlify.app
+        target: _blank
       - icon: envelope-at
         href: "mailto:admin@theupsidedownblog.com" 
         
-    tools:
-      - icon: github
-        menu:
-          - text: Source Code
-            href:  https://github.com/ocardec/theupsidedownblog
-            target: _blank
-          - text: Report a Bug
-            href:  https://github.com/ocardec/theupsidedownblog/issues/new/choose
-            target: _blank
+    # tools:
+    #   - icon: github
+    #     menu:
+    #       - text: Source Code
+    #         href:  https://github.com/ocardec/theupsidedownblog
+    #         target: _blank
+    #       - text: Report a Bug
+    #         href:  https://github.com/ocardec/theupsidedownblog/issues/new/choose
+    #         target: _blank
   search:
       location: navbar
       type: textbox
   page-footer: 
     left: |
-      <div class="bmc-button-container">
-        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ocardec" data-color="#252525" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" >
-        </script>
-        <style>
-          .bmc-button-container .bmc-button {
-            font-size: 10px !important; 
-            background-color: transparent !important;
-            border: none; 
-          }
-        </style>
-      </div>
-    center: |
       <span class="faux-block">&nbsp;&nbsp;Powered by <a href="https://www.navtheway.com" target="_blank">&nbsp;Navigate the Way</a></span>
+    center: |
+      <span class="faux-block">Created in <a href="https://quarto.org" target="_blank"> <img src="images/quarto.png" width="75"></a></span>
     right: |
-      <span class="faux-block">&#169; Copyright 2025, Cardec Solution
+      <span class="faux-block">&#169; Copyright 2025, Cardec Solutions
 format:
   html: 
     page-layout: article
     fontsize: 1.1em
     theme: 
-        light: flatly
         dark: darkly 
+        light: flatly
     css: styles.css
 
 

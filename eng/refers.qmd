@@ -19,5 +19,6 @@ title-block-banner: true
 | ![](images/ao_lab_logo.png){width="150"} | [**AO Lab**](https://helloaolab.my.canva.site) \| A non-profit company dedicated to loving and living out the Word of God. The goal of this project is to make the Bible freely available to anyone who should need it in a format that is optimized for use by applications. |
 | ![](images/api_bible.png){width="150"} | [**API.Bible**](https://scripture.api.bible) \| Build the Bible into your app or website, with nearly 2500 Bible versions available across over 1600 languages, API.Bible offers the largest collection of Bibles available. |
 | ![](images/vrbx.jpg){width="150"} | [VRBX Epika Studios](https://www.epikastudios.com) \| Virtual Reality Bible Experiences, a transformational virtual reality Bible engagement platform for all generations. |
+| ![](images/tap.png){width="150"} | [The Apologist Project](https://apologistproject.org) \| The Apologist Project exists to further the gospel of Jesus Christ by engaging the minds of non-believers and believers alike. We work to break down barriers to belief through intellectually stimulating discourse and conversational AI trained on a range of topics under the banner of apologetics. |
 
 <link rel="icon" type="image/png" href="images/tud_logo2"/>
