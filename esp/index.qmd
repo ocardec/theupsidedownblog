@@ -25,4 +25,4 @@ En el reino invertido de Dios, los últimos son los primeros, los más pequeños
 
 <br/>
 
-<link rel="icon" type="image/png" href="images/tud_logo2"/>
+<link rel="icon" type="image/png" href="img/tud_logo2"/>

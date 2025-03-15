@@ -24,4 +24,4 @@ As always, please let me know if you have any questions or concerns. Use the ema
 
 ------------------------------------------------------------------------
 
-<link rel="icon" type="image/png" href="images/tud_logo2"/>
+<link rel="icon" type="image/png" href="img/tud_logo2"/>

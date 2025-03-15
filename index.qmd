@@ -4,7 +4,7 @@ page-layout: article
 title-block-banner: true
 ---
 
-![](images/usdkingdm3.jpeg){fig-align="center" width="400"}
+![](img/usdkingdm3.jpeg){fig-align="center" width="400"}
 
 <br/>
 
@@ -14,7 +14,7 @@ In a world where success is defined by power, prestige, and self-promotion, The 
 
 <p style="text-align: right; font-family: Publico;">
 
-Jesus answered, "Truly, truly, I say to you, unless one is born of water and the Spirit, he cannot enter the kingdom of God." – [John 3:5](https://www.bible.com/bible/59/JHN.3.5)
+Jesus answered, "Truly, truly, I say to you, unless one is born of water and the Spirit, he cannot enter the kingdom of God." – [John 3:5](https://www.bible.com/bible/59/JHN.3.5){target="_blank"}
 
 </p>
 
@@ -22,4 +22,4 @@ Jesus answered, "Truly, truly, I say to you, unless one is born of water and the
 
 ------------------------------------------------------------------------
 
-<link rel="icon" type="image/png" href="images/tud_logo2"/>
+<link rel="icon" type="image/png" href="img/tud_logo2"/>

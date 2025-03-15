@@ -24,4 +24,4 @@ Como siempre, por favor, hágame saber si tiene alguna pregunta o inquietud. Use
 
 ------------------------------------------------------------------------
 
-<link rel="icon" type="image/png" href="images/tud_logo2"/>
+<link rel="icon" type="image/png" href="img/tud_logo2"/>

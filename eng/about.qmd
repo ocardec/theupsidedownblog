@@ -2,7 +2,7 @@
 title: "Purpose"
 about:
   template: "solana"
-  image: images/tud_logo300.png
+  image: img/tud_logo300.png
   image-shape: rounded
 page-layout: article
 title-block-banner: true
@@ -31,4 +31,4 @@ In a world where success is defined by power, prestige, and self-promotion, The 
 
 ------------------------------------------------------------------------
 
-<link rel="icon" type="image/png" href="images/tud_logo2"/>
+<link rel="icon" type="image/png" href="img/tud_logo2"/>
